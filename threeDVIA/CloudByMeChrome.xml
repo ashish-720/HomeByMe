@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Homebyme suite" verbose="3" parallel="false">
+   <test name="Homebyme 3DCLOUDBYME test in Chrome" parallel="true">
+  	<parameter name="browser" value="chrome"></parameter>
+  	<parameter name="link" value="cloud"></parameter>
+  	<parameter name="platform" value="win"></parameter>
+  	<parameter name="headless" value="true"></parameter>
+  	<!--  parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->  	  		
+    <classes>     
+      <class name="hbm.threeDCloudByMe.test.CreateProduct"/> 
+      <class name="hbm.threeDCloudByMe.test.CreateMaterial"/>    
+    </classes>
+   </test> <!-- Homebyme 3DCLOUDBYME test in Chrome -->    
+   <test name="Homebyme 3DCLOUDBYME test1 in Chrome">
+  	<parameter name="browser" value="chrome"></parameter>
+  	<parameter name="link" value="cloud"></parameter>
+  	<parameter name="platform" value="win"></parameter>
+  	<parameter name="headless" value="true"></parameter>
+  	<!--  parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->  	  		
+    <classes> 
+      <class name="hbm.threeDCloudByMe.test.CreateFamily"/>
+      <class name="hbm.threeDCloudByMe.test.CreateCatalog"/>      
+      <class name="hbm.threeDCloudByMe.test.DeleteFam"/>
+      <class name="hbm.threeDCloudByMe.test.EditPrd"/>
+      <class name="hbm.threeDCloudByMe.test.DeletePrdFromCatalog"/>
+      <class name="hbm.threeDCloudByMe.test.DeletePrdFromFamily"/>
+      <class name="hbm.threeDCloudByMe.test.DeleteCatalog"/>
+      <class name="hbm.threeDCloudByMe.test.DeleteFam"/>     
+      <class name="hbm.threeDCloudByMe.test.EditPrd"/>
+      <class name="hbm.threeDCloudByMe.test.EditMaterial"/>
+      <class name="hbm.threeDCloudByMe.test.DeletePrd"/>
+    </classes>
+   </test> <!-- Homebyme 3DCLOUDBYME test1 in Chrome --> 
+</suite> <!-- Homebyme suite -->

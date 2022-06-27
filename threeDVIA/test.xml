@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Homebyme suite" verbose="3" parallel="false">
+<!--    <test name="Homebyme test in Chrome">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <parameter name="link" value="bryoPreprod"></parameter>-->
+<!--        <parameter name="platform" value="win"></parameter>-->
+<!--        &lt;!&ndash;  parameter name="nodeURL" value="http://localhost:4447/wd/hub"></parameter>  &ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="kitchen.bryo.functionTest.CorrectDimensionsInImperialTest"/>-->
+<!--            <class name="kitchen.bryo.functionTest.WorktopEditWTWithoutLosingCompatibleItems"/>-->
+<!--            <class name="kitchen.bryo.functionTest.RemoveBackPlinthOption"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Homebyme test in Chrome &ndash;&gt;-->
+
+<!--    <test name="Homebyme test2 in Chrome">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <parameter name="link" value="bryoPreprodBeta"></parameter>-->
+<!--        <parameter name="platform" value="win"></parameter>-->
+<!--        &lt;!&ndash;  parameter name="nodeURL" value="http://localhost:4447/wd/hub"></parameter>  &ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="kitchen.bryo.functionTest.DisableMuliReplaceFeature"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Homebyme test in Chrome &ndash;&gt;-->
+
+
+    <test name="Enterprise Mobile Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryopreprodalpha"></parameter>
+        <parameter name="platform" value="iphone"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="kitchen.bryo.mobile.LaunchApp"/>
+        </classes>
+    </test> <!-- Enterprise Mobile Test -->
+</suite> <!-- Homebyme suite -->

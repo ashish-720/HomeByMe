@@ -1,0 +1,95 @@
+{
+    "version": 0,
+    "levels":
+    [
+        {
+            "levelName": "level0",
+            "wallHeight": 2500,
+            "rooms": [
+                {
+                    "roomName": "kitchen",
+                    "walls": [
+                        {
+                            "wallHeight": 2500,
+                            "pt1": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "pt2": {
+                                "x": 0,
+                                "y": 5000.5
+                            }
+                        },
+                        {
+                            "wallHeight": 2500,
+                            "pt1": {
+                                "x": 0,
+                                "y": 5000.5
+                            },
+                            "pt2": {
+                                "x": 4000,
+                                "y": 5000
+                            },
+                            "bays": [
+                                {
+                                    "distanceFromPt1": 1000,
+                                    "altitude": 1000,
+                                    "width": 1200,
+                                    "height": 1000,
+                                    "type": "rectangle",
+                                    "id": 4840
+                                }
+                            ]
+                        },
+                        {
+                            "wallHeight": 3000,
+                            "pt1": {
+                                "x": 4000,
+                                "y": 5000
+                            },
+                            "pt2": {
+                                "x": 6000,
+                                "y": 4000
+                            }
+                        },
+                        {
+                            "wallHeight": 2000,
+                            "pt1": {
+                                "x": 6000,
+                                "y": 4000
+                            },
+                            "pt2": {
+                                "x": 4000,
+                                "y": 0
+                            }
+                        },
+                        {
+                            "wallHeight": 1800,
+                            "pt1": {
+                                "x": 4000,
+                                "y": 0
+                            },
+                            "pt2": {
+                                "x": 1500,
+                                "y": 1000
+                            },
+                            "bays": [
+                            ]
+                        },
+                        {
+                            "wallHeight": 1000,
+                            "pt1": {
+                                "x": 1500,
+                                "y": 1000
+                            },
+                            "pt2": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

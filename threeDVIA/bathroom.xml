@@ -1,0 +1,91 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Homebyme suite" verbose="3" parallel="false">
+<test name="Enterprise Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="enterprisebuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- Enterprise Build Info -->
+    <test name="Homebyme test in Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bathroom"></parameter>
+        <parameter name="platform" value="win"></parameter>
+<!--        <parameter name="nodeURL" value="http://10.89.9.185:5566/wd/hub"></parameter>-->
+        <classes>
+            <!--  class name="hbm.web.test.PartnerPageTestRemote"/> -->
+            <class name="enterprise.bathroom.functionTest.CeilingHeight"/>
+            <class name="enterprise.bathroom.functionTest.DragAndDropItems"/>
+            <class name="enterprise.bathroom.functionTest.Openings"/>
+            <class name="enterprise.bathroom.functionTest.RoomObject"/>
+            <class name="enterprise.bathroom.functionTest.SlopedCeiling"/>
+            <class name="enterprise.bathroom.functionTest.Wall"/>
+            <class name="enterprise.bathroom.functionTest.EditWall"/>
+            <class name="enterprise.bathroom.functionTest.OpeningsUsingWall"/>
+            <class name="enterprise.bathroom.functionTest.Coverings"/>
+            <class name="enterprise.bathroom.functionTest.Measure"/>
+            <class name="enterprise.bathroom.functionTest.RoomShapeTest"/>
+            <class name="enterprise.bathroom.functionTest.BathsAndShowers"/>
+            <class name="enterprise.bathroom.functionTest.Toilets"/>
+            <class name="enterprise.bathroom.functionTest.Search"/>
+            <class name="enterprise.bathroom.functionTest.UngroupProductSets"/>
+            <class name="enterprise.bathroom.functionTest.RecoverProjectTest"/>
+            <class name="enterprise.bathroom.functionTest.AddNotesForProduct"/>
+            <class name="enterprise.bathroom.functionTest.DeleteMultipleProducts"/>
+            <class name="enterprise.bathroom.functionTest.EmptyRoom"/>
+            <class name="enterprise.bathroom.functionTest.PreciseRotation"/>
+            <class name="enterprise.bathroom.functionTest.Upload2DPlan"/>
+            <class name="enterprise.bathroom.functionTest.Cabinets"/>
+            <class name="enterprise.bathroom.functionTest.FreeStandingWorktop"/>
+            <class name="enterprise.bathroom.functionTest.ProductOutsideRoom"/>
+
+
+
+<!--            enterprise.bathroom.functionTest-->
+<!--            enterprise.bathroom.functionTest-->
+        </classes>
+    </test> <!-- Homebyme test in Chrome -->
+
+    <test name="Enterprise Mobile Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bathroommobile"></parameter>
+        <parameter name="platform" value="iphone"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="enterprise.bathroom.mobile.LaunchApp" />
+            <class name="enterprise.bathroom.mobile.Openings"></class>
+        </classes>
+    </test> <!-- Enterprise Mobile Test -->
+
+    <test name="Bryo Business Rules test in Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bathroom"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+        <classes>
+
+            <class name="enterprise.bathroom.businessRules.ElectricalSafetyRule"/>
+
+        </classes>
+    </test> <!-- Bryo Business Rules test in Chrome -->
+
+
+    <test name="Enterprise test on Bathroom Alpha flag">
+
+        <parameter name="browse" value="chrome"></parameter>
+        <parameter name="link" value="bathroomalpha"></parameter>
+        <parameter name="platform" value="win"></parameter>
+
+        <classes>
+
+            <class name="enterprise.bathroom.functionTest.WorktopEditor"/>
+            <class name="enterprise.bathroom.functionTest.WorktopSplitAndMerge"/>
+            <class name="enterprise.bathroom.functionTest.SplitEdgeWorktopAndWallPanel"/>
+
+        </classes>
+
+    </test>
+
+</suite> <!-- Homebyme suite -->

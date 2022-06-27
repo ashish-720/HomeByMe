@@ -1,0 +1,242 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bryo suite" verbose="3" parallel="false">
+    <test name="Enterprise Build Info">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="enterprisebuildid"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="hbm.planner.functionTest.BuildInfo"/>
+        </classes>
+    </test> <!-- Enterprise Build Info -->
+
+    <test name="Enterprise Test Access code">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryopreprodtestaccesscode"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.AccessCodeTest"/>
+        </classes>
+    </test> <!-- Enterprise test access code -->
+
+    <test name="Enterprise Mobile Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryopreprodalpha"></parameter>
+        <parameter name="platform" value="iphone"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="kitchen.bryo.mobile.LaunchApp"/>
+        </classes>
+    </test> <!-- Enterprise Mobile Test -->
+
+    <test name="Enterprise tests with kitchenBeta flag">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryoPreprodBeta"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.ReplaceCabinetsUsingImperialUnits"/>
+            <class name="kitchen.bryo.functionTest.ReplaceCabinetWithMultipleCabinets"/>
+            <class name="kitchen.bryo.functionTest.WallPanel_CalculateAtCorrectSize"/>
+            <class name="kitchen.bryo.functionTest.WorktopDefaultDimensionsOfFreestandingWT"/>
+            <class name="kitchen.bryo.functionTest.WorktopJoints"/>
+        </classes>
+    </test> <!-- Enterprise tests with kitchenBeta flag -->
+ <test name="Enterprise tests on kitchen Alpha flag">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="kitchenalpha"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+                <class name="kitchen.bryo.functionTest.UseMeasuringCode"/>
+        </classes>
+    </test> <!-- Enterprise tests on kitchen Alpha flag-->
+    <test name="Bryo Web test in Chrome" parallel="false">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryoPreprod"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4446/wd/hub"></parameter>  -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.DeleteProject"/>
+            <class name="kitchen.bryo.functionTest.DuplicateProject"/>
+        </classes>
+    </test> <!-- Bryo Web test in Chrome -->
+    <test name="Bryo Function test in Chrome" parallel="true" thread-count="3">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryoPreprod"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!--  parameter name="nodeURL" value="http://localhost:4447/wd/hub"></parameter>  -->
+        <classes>
+            <class name="kitchen.bryo.scenarioTest.ScenarioTest"/>
+            <class name="kitchen.bryo.functionTest.Accessories"/>
+			<class name="kitchen.bryo.functionTest.AddProductFromInfo"/>
+            <class name="kitchen.bryo.functionTest.Appliances"/>
+            <class name="kitchen.bryo.functionTest.ApplicativeRules"/>
+			<class name="kitchen.bryo.functionTest.BelFastSink"/>
+            <class name="kitchen.bryo.functionTest.Cabinets"/>
+            <class name="kitchen.bryo.functionTest.CatalogFilter"/>
+            <class name="kitchen.bryo.functionTest.CeilingHeight"/>
+            <class name="kitchen.bryo.functionTest.ComposeYourFurniture"/>
+            <!-- <class name="kitchen.bryo.functionTest.ContactACoWorker" /> -->
+            <class name="kitchen.bryo.functionTest.CornerCabinet"/>
+            <class name="kitchen.bryo.functionTest.CornerFiller"/>
+            <class name="kitchen.bryo.functionTest.CorrectDimensionsInImperialTest"/>
+            <class name="kitchen.bryo.functionTest.Coverings"/>
+            <class name="kitchen.bryo.functionTest.DeleteMultipleProducts"/>
+			<class name="kitchen.bryo.functionTest.DeliveryAndInstallationService"/>
+            <class name="kitchen.bryo.functionTest.Dining"/>
+            <class name="kitchen.bryo.functionTest.DoubleSidedWorktop"/>
+            <class name="kitchen.bryo.functionTest.DragAndDropItems"/>
+            <class name="kitchen.bryo.functionTest.DrainerGroovesTest"/>
+            <class name="kitchen.bryo.functionTest.EcoFee"/>
+            <class name="kitchen.bryo.functionTest.EditCabinet"/>
+            <class name="kitchen.bryo.functionTest.EditCornerCabinetsInCabinetEditor"/>
+            <class name="kitchen.bryo.functionTest.EditMultipleItems"/>
+            <class name="kitchen.bryo.functionTest.EditWall"/>
+            <class name="kitchen.bryo.functionTest.EmptyRoom"/>
+            <class name="kitchen.bryo.functionTest.EnergyEfficiency"/>
+            <class name="kitchen.bryo.functionTest.EnterProjectWithSpecificCameraView"/>
+            <class name="kitchen.bryo.functionTest.ExpiredProductTest"/>
+            <class name="kitchen.bryo.functionTest.FillerGap"/>
+            <class name="kitchen.bryo.functionTest.Favorites"/>
+            <class name="kitchen.bryo.functionTest.FullDepthSink"/>
+            <class name="kitchen.bryo.functionTest.FreeStandingWorktop"/>
+            <class name="kitchen.bryo.functionTest.GenericPlinth"/>
+            <class name="kitchen.bryo.functionTest.GenericWallEdgeStrip"/>
+            <class name="kitchen.bryo.functionTest.HingeTest"/>
+            <class name="kitchen.bryo.functionTest.IllustrationWallPanel"/>
+            <class name="kitchen.bryo.functionTest.Login"/>
+            <class name="kitchen.bryo.functionTest.Measure"/>
+            <class name="kitchen.bryo.functionTest.ModernRangeKitchen"/>
+            <class name="kitchen.bryo.functionTest.Openings"/>
+            <class name="kitchen.bryo.functionTest.OpeningsUsingWall"/>
+            <class name="kitchen.bryo.functionTest.OverwriteSolution"/>
+            <class name="kitchen.bryo.functionTest.Panoramic360Image"/>
+            <class name="kitchen.bryo.functionTest.PickALayoutEditMyFloorplan"/>
+            <class name="kitchen.bryo.functionTest.PickALayoutStartFromScratch"/>
+            <class name="kitchen.bryo.functionTest.PickALayoutUpdateNeeds"/>
+            <class name="kitchen.bryo.functionTest.PreciseRotation"/>
+            <class name="kitchen.bryo.functionTest.PriceTest1"/>
+            <class name="kitchen.bryo.functionTest.PriceTest2"/>
+            <class name="kitchen.bryo.functionTest.PriceTest3"/>
+            <class name="kitchen.bryo.functionTest.PriceTest4"/>
+            <class name="kitchen.bryo.functionTest.ProductOutsideRoom"/>
+			<class name="kitchen.bryo.functionTest.ProductTestIn2DView"/>
+            <class name="kitchen.bryo.functionTest.RealisticPicture"/>
+            <class name="kitchen.bryo.functionTest.RecoverProjectLoggedSaved"/>
+            <class name="kitchen.bryo.functionTest.RecoverProjectLoggedUnSaved"/>
+            <class name="kitchen.bryo.functionTest.RecoverProjectTest"/>
+            <class name="kitchen.bryo.functionTest.RemoveJoint"/>
+            <!-- class name="kitchen.bryo.functionTest.VerifyProjectDetailsPage" /-->
+            <class name="kitchen.bryo.functionTest.ReOpenProject"/>
+			<class name="kitchen.bryo.functionTest.ResetKitchenView"/>
+            <class name="kitchen.bryo.functionTest.ResetRoom"/>
+            <!-- class name="kitchen.bryo.functionTest.DeleteProject" / -->
+            <class name="kitchen.bryo.functionTest.RoomObject"/>
+            <class name="kitchen.bryo.functionTest.RoomShapeTest"/>
+            <class name="kitchen.bryo.functionTest.RoundedCornerEdgeCut"/>
+            <class name="kitchen.bryo.functionTest.RoundedEdgeCut"/>
+			<class name="kitchen.bryo.functionTest.RTL"/>
+            <class name="kitchen.bryo.functionTest.SaveOpenTest"/>
+            <class name="kitchen.bryo.functionTest.SaveReOpenEmptyProject"/>
+            <class name="kitchen.bryo.functionTest.SaveScenarioForStep1"/>
+            <class name="kitchen.bryo.functionTest.SaveScenarioForStep2"/>
+            <class name="kitchen.bryo.functionTest.SaveScenarioForStep3IslandKitchen"/>
+            <class name="kitchen.bryo.functionTest.SaveScenarioForStep4"/>
+            <class name="kitchen.bryo.functionTest.Search"/>
+            <class name="kitchen.bryo.functionTest.ShareYourProject"/>
+            <class name="kitchen.bryo.functionTest.SlopedCeiling"/>
+            <class name="kitchen.bryo.functionTest.SolutionLayout"/>
+			<class name="kitchen.bryo.functionTest.SplitEdgeWorktopAndWallPanel"/>
+            <class name="kitchen.bryo.functionTest.TwoDPlansAndImages"/>
+            <class name="kitchen.bryo.functionTest.UnAvailableProduct"/>
+            <class name="kitchen.bryo.functionTest.UndoAndRedoOperationOnLinears"/>
+			<class name="kitchen.bryo.functionTest.UngroupProductSets"/>
+            <class name="kitchen.bryo.functionTest.Upload2DPlan"/>
+            <class name="kitchen.bryo.functionTest.Wall"/>
+            <class name="kitchen.bryo.functionTest.WallCabinetTest"/>
+            <class name="kitchen.bryo.functionTest.WallEdgeStrip"/>
+            <class name="kitchen.bryo.functionTest.WallPanel"/>
+            <class name="kitchen.bryo.functionTest.WallPanelEdgeSymbols"/>
+            <class name="kitchen.bryo.functionTest.Waterfall"/>
+            <class name="kitchen.bryo.functionTest.WaterSupplyTest"/>
+            <class name="kitchen.bryo.functionTest.Worktop"/>
+            <class name="kitchen.bryo.functionTest.WorktopBolts"/>
+			<class name="kitchen.bryo.functionTest.WorktopCreateArcBasedOnDepth"/>
+			<class name="kitchen.bryo.functionTest.WorktopDefaultDimensionsOfFreestandingWT"/>
+			<class name="kitchen.bryo.functionTest.WorktopEdgeSymbols"/>
+			<class name="kitchen.bryo.functionTest.WorktopJoints"/>
+            <class name="kitchen.bryo.functionTest.WorktopMoveCustomizedWT"/>
+            <class name="kitchen.bryo.functionTest.WorktopOverHang"/>
+			<class name="kitchen.bryo.functionTest.WorktopRemoveArc"/>
+			<class name="kitchen.bryo.functionTest.WorktopShapedWorktop"/>
+            <class name="kitchen.bryo.functionTest.WorktopSplitAndMerge"/>
+            <class name="kitchen.bryo.functionTest.ExportProject"/>
+            <class name="kitchen.bryo.functionTest.UsingHomeByMeFromScratch"/>
+            <class name="kitchen.bryo.functionTest.UsingHomeByMeFromTemplate"/>
+            <!-- class name="kitchen.bryo.functionTest.DuplicateProject" / -->
+        </classes>
+    </test> <!-- Bryo Function test in Chrome -->
+    <test name="Bryo test in Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="link" value="bryoPreprod"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+        <classes>
+            <class name="kitchen.bryo.scenarioTest.BryoDemoScenarioTest"/>
+        </classes>
+    </test> <!-- Bryo test in Edge -->
+    <test name="Bryo PreProd Alpha Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryopreprodalpha"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!-- parameter name="nodeURL" value="http://localhost:4444/wd/hub"></parameter> -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.ProjectNameCharLimit"/>
+			<class name="kitchen.bryo.functionTest.CustomWorktopWallPanelRule"/>
+			<class name="kitchen.bryo.functionTest.WaterfallInsetPerWorktop"/>
+			<class name="kitchen.bryo.functionTest.WaterfallTypeWorktopJoint"/>
+			<class name="kitchen.bryo.functionTest.FreeStandingWallPanel"/>
+			<class name="kitchen.bryo.functionTest.AddNotesForProduct"/>
+        </classes>
+    </test> <!-- Bryo PreProd Alpha Test -->
+
+    <test name="Bryo Tests Requiring App Setting change" parallel="false">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryoPreprod"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!--  parameter name="nodeURL" value="http://localhost:4447/wd/hub"></parameter>  -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.CorrectDimensionsInImperialTest"/>
+            <class name="kitchen.bryo.functionTest.WorktopEditWTWithoutLosingCompatibleItems"/>
+            <class name="kitchen.bryo.functionTest.RemoveBackPlinthOption"/>
+        </classes>
+    </test> <!-- Bryo PreProd  Test requiring change in app settings-->
+
+    <test name="Bryo Beta feature Tests Requiring App Setting change" parallel="false">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="bryoPreprodBeta"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!--  parameter name="nodeURL" value="http://localhost:4447/wd/hub"></parameter>  -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.DisableMuliReplaceFeature"/>
+			<class name="kitchen.bryo.functionTest.DisableDownloadInMediaWidget"/>
+			<class name="kitchen.bryo.functionTest.DisableDownloadInMediaWidget"/>
+			<class name="kitchen.bryo.functionTest.DefaultRenderLayerAppSetting"/>
+        </classes>
+    </test> <!-- Bryo Beta feature Tests Requiring App Setting change-->
+
+    <test name="IKEA test cases" parallel="false">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="link" value="ikea"></parameter>
+        <parameter name="platform" value="win"></parameter>
+        <!--  parameter name="nodeURL" value="http://localhost:4447/wd/hub"></parameter>  -->
+        <classes>
+            <class name="kitchen.bryo.functionTest.IkeaDemoTest"/>
+            <class name="kitchen.bryo.functionTest.IkeaDemoTest2"/>
+            <class name="kitchen.bryo.functionTest.IkeaDemoTest3"/>
+        </classes>
+    </test> <!-- IKEA test cases-->
+
+</suite> <!-- Bryo suite -->

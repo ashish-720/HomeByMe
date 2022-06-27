@@ -1,0 +1,293 @@
+U2DA80;0,cabinets>Base cabinets
+UD2SA80;1,cabinets>Base cabinets
+UD4SA60;2,cabinets>Base cabinets
+UD4SA80;3,cabinets>Base cabinets
+U2DA402;4,cabinets>Base cabinets
+U2DA802;5,cabinets>Base cabinets
+U2DA4037;6,cabinets>Base cabinets
+U2DA6037;7,cabinets>Base cabinets
+UD4SA40;8,cabinets>Base cabinets
+U2DA602;9,cabinets>Base cabinets
+UD80;10,cabinets>Base cabinets
+UD4SA50;11,cabinets>Base cabinets
+UD4SA45;12,cabinets>Base cabinets
+UD4SA30;13,cabinets>Base cabinets
+UD4SA120;14,cabinets>Base cabinets
+UD4SA100;15,cabinets>Base cabinets
+UD4SA90;16,cabinets>Base cabinets
+UD2SA90;17,cabinets>Base cabinets
+UD2SA50;18,cabinets>Base cabinets
+UD2SA45;19,cabinets>Base cabinets
+UD2SA30;20,cabinets>Base cabinets
+UD2SA120;21,cabinets>Base cabinets
+UD2SA100;22,cabinets>Base cabinets
+U2DA90;23,cabinets>Base cabinets
+U2DA50;24,cabinets>Base cabinets
+U2DA45;25,cabinets>Base cabinets
+U2DA30;26,cabinets>Base cabinets
+U2DA120;27,cabinets>Base cabinets
+U2DA100;28,cabinets>Base cabinets
+U2DA8037;29,cabinets>Base cabinets
+U2DA5037;30,cabinets>Base cabinets
+U2DA4537;31,cabinets>Base cabinets
+U2DA3037;32,cabinets>Base cabinets
+U2DA12037;33,cabinets>Base cabinets
+U2DA10037;34,cabinets>Base cabinets
+U2DA9037;35,cabinets>Base cabinets
+U2DA902;36,cabinets>Base cabinets
+U2DA502;37,cabinets>Base cabinets
+U2DA452;38,cabinets>Base cabinets
+U2DA302;39,cabinets>Base cabinets
+U2DA1202;40,cabinets>Base cabinets
+U2DA1002;41,cabinets>Base cabinets
+UD4SA60_fr;42,cabinets>Base cabinets
+U80;43,cabinets>Base cabinets
+U2DA80_test;44,cabinets>Base cabinets
+rgv1_oct30c;45,cabinets>Base cabinets
+UA80_bryoCont_30_10_2019;46,cabinets>Base cabinets
+rgv1_oct31c;47,cabinets>Base cabinets
+UA80_bryoCont_31_10_2019;48,cabinets>Base cabinets
+GMO032;0,cabinets>High cabinets
+GVARIO03;1,cabinets>High cabinets
+GMO03;2,cabinets>High cabinets
+GVARIO033P;3,cabinets>High cabinets
+GMO03_Test_Side_Panel;4,cabinets>High cabinets
+GMO03_Test_Side_Panel_V2;5,cabinets>High cabinets
+W6002;0,cabinets>Wall cabinets
+WG6002;1,cabinets>Wall cabinets
+W2001;2,cabinets>Wall cabinets
+W4001;3,cabinets>Wall cabinets
+W6001;4,cabinets>Wall cabinets
+W8002;5,cabinets>Wall cabinets
+W8001;6,cabinets>Wall cabinets
+W4003;7,cabinets>Wall cabinets
+W6003;8,cabinets>Wall cabinets
+W8003;9,cabinets>Wall cabinets
+WG4003;10,cabinets>Wall cabinets
+WG6003;11,cabinets>Wall cabinets
+WG8003;12,cabinets>Wall cabinets
+WG4002;13,cabinets>Wall cabinets
+W2002;14,cabinets>Wall cabinets
+W4002;15,cabinets>Wall cabinets
+HOR400;16,cabinets>Wall cabinets
+W3002;17,cabinets>Wall cabinets
+WG9003;18,cabinets>Wall cabinets
+WG5003;19,cabinets>Wall cabinets
+WG4503;20,cabinets>Wall cabinets
+WG9002;21,cabinets>Wall cabinets
+WG5002;22,cabinets>Wall cabinets
+WG4502;23,cabinets>Wall cabinets
+WG10002;24,cabinets>Wall cabinets
+WG10003;25,cabinets>Wall cabinets
+W9003;26,cabinets>Wall cabinets
+W5003;27,cabinets>Wall cabinets
+W4503;28,cabinets>Wall cabinets
+W3003;29,cabinets>Wall cabinets
+W10003;30,cabinets>Wall cabinets
+W9002;31,cabinets>Wall cabinets
+W5002;32,cabinets>Wall cabinets
+W4502;33,cabinets>Wall cabinets
+W12002;34,cabinets>Wall cabinets
+W10002;35,cabinets>Wall cabinets
+W9001;36,cabinets>Wall cabinets
+W5001;37,cabinets>Wall cabinets
+W4501;38,cabinets>Wall cabinets
+W3001;39,cabinets>Wall cabinets
+W12001;40,cabinets>Wall cabinets
+W10001;41,cabinets>Wall cabinets
+UEDBD10060L;0,cabinets>Corner cabinets
+WED6802;1,cabinets>Corner cabinets
+UEDK88;2,cabinets>Corner cabinets
+UEDBD10060R;3,cabinets>Corner cabinets
+UEDBD10060R2;4,cabinets>Corner cabinets
+UEDBD10060L2;5,cabinets>Corner cabinets
+Filler for Base Unit;0,cabinets>Filler strip angle
+Filler for High Unit;1,cabinets>Filler strip angle
+Filler for Wall Unit;2,cabinets>Filler strip angle
+Filler for Ceiling;3,cabinets>Filler strip angle
+CORNER FILLER BASE UNIT;4,cabinets>Filler strip angle
+CORNER FILLER WALL UNIT;5,cabinets>Filler strip angle
+CKT600;0,appliances>Cooktops
+COOKTOP;1,appliances>Cooktops
+KDSA60;2,appliances>Cooktops
+ANTOINE;3,appliances>Cooktops
+JEAN BAPTISTE;4,appliances>Cooktops
+EMILIE;5,appliances>Cooktops
+CKT800;6,appliances>Cooktops
+DISHWASHER;0,appliances>Dishwashers
+SMV24AX00E;1,appliances>Dishwashers
+GSBVS2A60;2,appliances>Dishwashers
+GSBD60I;3,appliances>Dishwashers
+DISHBRYO02;4,appliances>Dishwashers
+WASHER;0,appliances>Washing machines
+WASHERINT60;1,appliances>Washing machines
+REFRIGERATOR & FREEZER;0,appliances>Fridge
+REFRIGERATOR & FREEZER;1,appliances>Fridge
+FRIDGE US;2,appliances>Fridge
+PATRICIA;3,appliances>Fridge
+FRIDGE 60;4,appliances>Fridge
+FRIDGE 59;5,appliances>Fridge
+KET600CHXE;0,appliances>Hoods
+KET900CHXE;1,appliances>Hoods
+HOOD;2,appliances>Hoods
+WDAF6001;3,appliances>Hoods
+ISLANDHOOD90;4,appliances>Hoods
+HOOD;5,appliances>Hoods
+VANEAU;6,appliances>Hoods
+SEBARIAL;7,appliances>Hoods
+DALINAR;8,appliances>Hoods
+W2DAF8002;9,appliances>Hoods
+HUS60;0,appliances>Ovens
+OVEN;1,appliances>Ovens
+OVEN;2,appliances>Ovens
+OVEN;3,appliances>Ovens
+SPUDSA60;0,appliances>Sinks
+SPUDASA60;1,appliances>Sinks
+SPUD60;2,appliances>Sinks
+SPUD40;3,appliances>Sinks
+SPUD80;4,appliances>Sinks
+SPUDSA80;5,appliances>Sinks
+SPUDASA80;6,appliances>Sinks
+SPUD90;7,appliances>Sinks
+SPUD45;8,appliances>Sinks
+SPUD120;9,appliances>Sinks
+SPUD100;10,appliances>Sinks
+SPUD50;11,appliances>Sinks
+SPUDSA90;12,appliances>Sinks
+SPUDSA50;13,appliances>Sinks
+SPUDSA45;14,appliances>Sinks
+SPUDSA120;15,appliances>Sinks
+SPUDSA100;16,appliances>Sinks
+SPUDASA90;17,appliances>Sinks
+SPUDASA50;18,appliances>Sinks
+SPUDASA45;19,appliances>Sinks
+SPUDASA120;20,appliances>Sinks
+SPUDASA100;21,appliances>Sinks
+SPUDSA60BEL;22,appliances>Sinks
+CHAIR;0,dining>Chairs
+CHAIR;1,dining>Chairs
+CHAIR;2,dining>Chairs
+CHAIR;3,dining>Chairs
+CHAIR;4,dining>Chairs
+CHAIR;5,dining>Chairs
+CHAIR;6,dining>Chairs
+KITCHEN CHAIR;7,dining>Chairs
+CHAIR;8,dining>Chairs
+CHAIR;9,dining>Chairs
+KITCHEN CHAIR;10,dining>Chairs
+CHAIR;11,dining>Chairs
+CHAIR;12,dining>Chairs
+Chair_bryoCont_30_10_2019;13,dining>Chairs
+TABLE;0,dining>Tables
+TABLE;1,dining>Tables
+DINING TABLE;2,dining>Tables
+TABLE;3,dining>Tables
+XZ3 Table Round;4,dining>Tables
+Table;5,dining>Tables
+KITCHEN TABLE;6,dining>Tables
+TABLE;7,dining>Tables
+TABLE BAR;8,dining>Tables
+TABLE;9,dining>Tables
+TABLE;10,dining>Tables
+BABY CHAIR;0,dining>Junior chairs
+CHAIR;1,dining>Junior chairs
+STOOL;0,dining>Stools
+STOOL;1,dining>Stools
+STOOL;2,dining>Stools
+STOOL;3,dining>Stools
+STOOL;4,dining>Stools
+STOOL;5,dining>Stools
+TABLEWARE;0,dining>Tableware
+BOWL;1,dining>Tableware
+BOWLS;2,dining>Tableware
+GLASS;3,dining>Tableware
+GLASS;4,dining>Tableware
+JUG;5,dining>Tableware
+JUG;6,dining>Tableware
+WOODEN BOWL;7,dining>Tableware
+FLOOR LAMP;0,accessories>Floor lamps
+FLOOR LAMP;1,accessories>Floor lamps
+FLOOR LAMP;2,accessories>Floor lamps
+FLOOR LAMP;3,accessories>Floor lamps
+PLANTS;0,accessories>Plant & flowers
+PLANTS;1,accessories>Plant & flowers
+FLOWERS;2,accessories>Plant & flowers
+PLANTS;3,accessories>Plant & flowers
+PLANTS;4,accessories>Plant & flowers
+FLOWERS;5,accessories>Plant & flowers
+FLOWERS;6,accessories>Plant & flowers
+RUG;0,accessories>Rugs
+RUG;1,accessories>Rugs
+RUG;2,accessories>Rugs
+RUG;3,accessories>Rugs
+RUG;4,accessories>Rugs
+RUG;5,accessories>Rugs
+RUG;6,accessories>Rugs
+IRON SHELVES;0,accessories>Shelves
+WOODEN SHELF;1,accessories>Shelves
+TABLE LAMP;0,accessories>Table lamps
+TABLE LAMP;1,accessories>Table lamps
+TABLE LAMP;2,accessories>Table lamps
+TABLE LAMP;3,accessories>Table lamps
+Desk Lamp;4,accessories>Table lamps
+rgv1_oct30a;5,accessories>Table lamps
+WALL SHELF;0,accessories>Wall shelves
+WALL SHELF;1,accessories>Wall shelves
+WALL SHELF;2,accessories>Wall shelves
+WALL SHELF;3,accessories>Wall shelves
+WALL SHELF;4,accessories>Wall shelves
+WALL SHELF;5,accessories>Wall shelves
+WALL SHELF;6,accessories>Wall shelves
+BIN;0,accessories>Trash cans
+TRASH CAN;1,accessories>Trash cans
+TABLEWARE;0,accessories>Tableware
+BOWL;1,accessories>Tableware
+BOWLS;2,accessories>Tableware
+GLASS;3,accessories>Tableware
+GLASS;4,accessories>Tableware
+JUG;5,accessories>Tableware
+JUG;6,accessories>Tableware
+WOODEN BOWL;7,accessories>Tableware
+SUSPENDED LAMP;0,accessories>Suspended lamps
+SUSPENDED LAMP;1,accessories>Suspended lamps
+SUSPENDED LAMP;2,accessories>Suspended lamps
+SUSPENDED LAMP;3,accessories>Suspended lamps
+SUSPENDED LAMP;4,accessories>Suspended lamps
+SUSPENDED LAMP;5,accessories>Suspended lamps
+SUSPENDED LAMP;6,accessories>Suspended lamps
+SUSPENDED LAMP;7,accessories>Suspended lamps
+SUSPENDED LAMP;8,accessories>Suspended lamps
+Waste Bin;0,accessories>Kitchen accessories
+CLOCK;1,accessories>Kitchen accessories
+Waste Bin;2,accessories>Kitchen accessories
+FRUITS BASKET;3,accessories>Kitchen accessories
+SPICES;4,accessories>Kitchen accessories
+MUSTARD;5,accessories>Kitchen accessories
+SALT & PEPPER;6,accessories>Kitchen accessories
+SALT & PEPPER;7,accessories>Kitchen accessories
+KITCHEN ACCESSORIES;8,accessories>Kitchen accessories
+KITCHEN ACCESSORIES;9,accessories>Kitchen accessories
+KITCHEN ACCESSORIES;10,accessories>Kitchen accessories
+DRAINING RACK;11,accessories>Kitchen accessories
+KNIVES STORAGE;12,accessories>Kitchen accessories
+CUPS HANGER;13,accessories>Kitchen accessories
+BALANCE;14,accessories>Kitchen accessories
+BOOK HOLDER;15,accessories>Kitchen accessories
+BREAD BOX;16,accessories>Kitchen accessories
+WINE CELLAR;17,accessories>Kitchen accessories
+SAUCEPAN;18,accessories>Kitchen accessories
+KITCHEN ACCESSORIES;19,accessories>Kitchen accessories
+PAN;20,accessories>Kitchen accessories
+KITCHEN ACCESSORIES;21,accessories>Kitchen accessories
+KITCHEN ACCESSORIES;22,accessories>Kitchen accessories
+KITCHEN STORAGE;23,accessories>Kitchen accessories
+WALL SHELF;24,accessories>Kitchen accessories
+SF90;25,accessories>Kitchen accessories
+Ventilation Grid;26,accessories>Kitchen accessories
+Waste Bin;27,accessories>Kitchen accessories
+SF90_g;28,accessories>Kitchen accessories
+Aeration Grid;29,accessories>Kitchen accessories
+CAROUSEL_01;30,accessories>Kitchen accessories
+CAROUSEL_02;31,accessories>Kitchen accessories
+OPERA;32,accessories>Kitchen accessories
+OPERA;33,accessories>Kitchen accessories

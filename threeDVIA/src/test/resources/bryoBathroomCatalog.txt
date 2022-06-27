@@ -1,0 +1,92 @@
+DOUBLE WINDOW;Floorplan>Openings>Windows>Double windows>>>
+DOUBLE WINDOW|0;Floorplan>Openings>Windows>Double windows>>>
+Soleal 55 Visible sash window;Floorplan>Openings>Windows>Double windows>>>
+Soleal 55 Visible sash window|1;Floorplan>Openings>Windows>Double windows>>>
+SIMPLE WINDOW;Floorplan>Openings>Windows>Single windows>>>
+SIMPLE WINDOW|0;Floorplan>Openings>Windows>Single windows>>>
+FIXED WINDOW;Floorplan>Openings>Windows>Fixed windows>>>
+FIXED WINDOW|0;Floorplan>Openings>Windows>Fixed windows>>>
+ROOF WINDOW;Floorplan>Openings>Windows>Roof windows>>>
+ROOF WINDOW|0;Floorplan>Openings>Windows>Roof windows>>>
+Interior door;Floorplan>Openings>Doors>Single doors>>>
+Interior door|0;Floorplan>Openings>Doors>Single doors>>>
+Interior door;Floorplan>Openings>Doors>Single doors>>>
+Interior door|1;Floorplan>Openings>Doors>Single doors>>>
+Column;Floorplan>Room objects>Room objects>Columns>>>
+Column|0;Floorplan>Room objects>Room objects>Columns>>>
+Column;Floorplan>Room objects>Room objects>Columns>>>
+Column|1;Floorplan>Room objects>Room objects>Columns>>>
+Column;Floorplan>Room objects>Room objects>Columns>>>
+Column|2;Floorplan>Room objects>Room objects>Columns>>>
+Column;Floorplan>Room objects>Room objects>Columns>>>
+Column|3;Floorplan>Room objects>Room objects>Columns>>>
+Column;Floorplan>Room objects>Room objects>Columns>>>
+Column|4;Floorplan>Room objects>Room objects>Columns>>>
+COLUMN;Floorplan>Room objects>Room objects>Columns>>>
+COLUMN|5;Floorplan>Room objects>Room objects>Columns>>>
+COLUMN BY CIRCUMFERENCE;Floorplan>Room objects>Room objects>Columns>>>
+COLUMN BY CIRCUMFERENCE|6;Floorplan>Room objects>Room objects>Columns>>>
+Roman column;Floorplan>Room objects>Room objects>Columns>>>
+Roman column|7;Floorplan>Room objects>Room objects>Columns>>>
+Roman Column;Floorplan>Room objects>Room objects>Columns>>>
+Roman Column|8;Floorplan>Room objects>Room objects>Columns>>>
+BOX OBJECT;Floorplan>Room objects>Room objects>Free shapes>>>
+BOX OBJECT|0;Floorplan>Room objects>Room objects>Free shapes>>>
+COLUMN;Floorplan>Room objects>Room objects>Free shapes>>>
+COLUMN|1;Floorplan>Room objects>Room objects>Free shapes>>>
+Cube;Floorplan>Room objects>Room objects>Free shapes>>>
+Cube|2;Floorplan>Room objects>Room objects>Free shapes>>>
+Cylinder;Floorplan>Room objects>Room objects>Free shapes>>>
+Cylinder|3;Floorplan>Room objects>Room objects>Free shapes>>>
+Cylinder;Floorplan>Room objects>Room objects>Free shapes>>>
+Cylinder|4;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape|5;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape|6;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape|7;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape|8;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape|9;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L shape|10;Floorplan>Room objects>Room objects>Free shapes>>>
+L Shape;Floorplan>Room objects>Room objects>Free shapes>>>
+L Shape|11;Floorplan>Room objects>Room objects>Free shapes>>>
+Prisme;Floorplan>Room objects>Room objects>Free shapes>>>
+Prisme|12;Floorplan>Room objects>Room objects>Free shapes>>>
+Sphere shape;Floorplan>Room objects>Room objects>Free shapes>>>
+Sphere shape|13;Floorplan>Room objects>Room objects>Free shapes>>>
+WATER PIPE;Floorplan>Room objects>Room objects>Free shapes>>>
+WATER PIPE|14;Floorplan>Room objects>Room objects>Free shapes>>>
+RADIATOR;Floorplan>Room objects>Room objects>Radiators>>>
+RADIATOR|0;Floorplan>Room objects>Room objects>Radiators>>>
+PLUG;Floorplan>Room objects>Room objects>Electrical>>>
+PLUG|0;Floorplan>Room objects>Room objects>Electrical>>>
+Vanity unit;Design your bathroom>Cabinets>Cabinets>Toilet vanity units>>Toilet vanity unit>
+Vanity unit|0;Design your bathroom>Cabinets>Cabinets>Toilet vanity units>>Toilet vanity unit>
+Vanity unit;Design your bathroom>Cabinets>Cabinets>Toilet vanity units>>Toilet vanity units>
+Vanity unit|1;Design your bathroom>Cabinets>Cabinets>Toilet vanity units>>Toilet vanity units>
+Swing Door Shower;Design your bathroom>Baths and showers>Baths and showers>Configurable showers>>>
+Swing Door Shower|0;Design your bathroom>Baths and showers>Baths and showers>Configurable showers>>>
+Walk in Shower;Design your bathroom>Baths and showers>Baths and showers>Configurable showers>>>
+Walk in Shower|1;Design your bathroom>Baths and showers>Baths and showers>Configurable showers>>>
+Bathtub assembly;Design your bathroom>Baths and showers>Baths and showers>Configurable bathtubs>>>
+Bathtub assembly|0;Design your bathroom>Baths and showers>Baths and showers>Configurable bathtubs>>>
+Freestanding toilet;Design your bathroom>Toilets>Toilets>Freestanding toilets>>>
+Freestanding toilet|0;Design your bathroom>Toilets>Toilets>Freestanding toilets>>>
+Suspended toilet;Design your bathroom>Toilets>Toilets>Suspended toilets>>>
+Suspended toilet|0;Design your bathroom>Toilets>Toilets>Suspended toilets>>>
+Suspended toilet with visible frame;Design your bathroom>Toilets>Toilets>Suspended toilets>>Test product only (to use in Floorplan step)>
+Suspended toilet with visible frame|1;Design your bathroom>Toilets>Toilets>Suspended toilets>>Test product only (to use in Floorplan step)>
+Suspended toilet set;Design your bathroom>Toilets>Toilet sets>Suspended toilet sets>>Set with toilets and vanity set>
+Suspended toilet set|0;Design your bathroom>Toilets>Toilet sets>Suspended toilet sets>>Set with toilets and vanity set>
+Bathroom mirror;Design your bathroom>Bathroom extras>Bathroom extras>Mirrors>>Double sink mirror>
+Bathroom mirror|0;Design your bathroom>Bathroom extras>Bathroom extras>Mirrors>>Double sink mirror>
+;Design your bathroom>Bathroom extras>Bathroom extras>Lamps>>>
+|0;Design your bathroom>Bathroom extras>Bathroom extras>Lamps>>>
+U2DA100;Design your bathroom>Cabinets>Cabinets>Base cabinets>
+U2DA30;Design your bathroom>Cabinets>Cabinets>Base cabinets>
+U2DA45;Design your bathroom>Cabinets>Cabinets>Base cabinets>
+U2DA8037;Design your bathroom>Cabinets>Cabinets>Base cabinets>

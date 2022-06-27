@@ -1,0 +1,84 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Homebyme suite" verbose="3" parallel="false">
+	<test name="HomeByMe Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hbmbuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- HomeByMe Build Info -->
+	<test name="HBM 3DCLOUDBYME Product test in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="cloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.threeDCloudByMe.test.CreateProductSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateProductAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateProductContributor" />
+			<class name="hbm.threeDCloudByMe.test.CreateMaterialAsAProductSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateMaterialAsAProductAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateMaterialAsAProductContributor" />
+		</classes>
+	</test> <!-- HBM 3DCLOUDBYME Product test in Chrome -->
+	<test name="HBM 3DCLOUDBYME Material test in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="cloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.threeDCloudByMe.test.CreateMaterialSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateMaterialAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateMaterialContributor" />
+		</classes>
+	</test> <!-- HBM 3DCLOUDBYME Material test in Chrome -->
+	<test name="Homebyme 3DCLOUDBYME test1 in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="cloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.threeDCloudByMe.test.CreateCatalogSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateCatalogAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateCatalogContributor" />
+			<class name="hbm.threeDCloudByMe.test.CreateFamilySuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateFamilyAdmin" />
+			<class name="hbm.threeDCloudByMe.test.CreateFamilyContributor" />
+			<class name="hbm.threeDCloudByMe.test.VerifyProductDetailsSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.VerifyProductDetailsAdmin" />
+			<class name="hbm.threeDCloudByMe.test.VerifyProductDetailsContributor" />
+			<class name="hbm.threeDCloudByMe.test.VerifyProductDetailsReviewer" />
+			<class name="hbm.threeDCloudByMe.test.VerifyCatalogAdmin" />
+			<class name="hbm.threeDCloudByMe.test.VerifyFamilyAdmin" />
+			<class name="hbm.threeDCloudByMe.test.VerifyProductEmbededLink" />
+			<class name="hbm.threeDCloudByMe.test.Verify3dTools" />
+			<class name="hbm.threeDCloudByMe.test.EditAppDistrInCatalogSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.DeletePrdFromCatalogSuperAdmin" />
+			<!-- class name="hbm.threeDCloudByMe.test.DeletePrdFromCatalogAdmin"/ -->
+			<!--class name="hbm.threeDCloudByMe.test.DeletePrdFromCatalogContributor"/ -->
+			<class name="hbm.threeDCloudByMe.test.DeleteCatalogSuperAdmin" />
+			<!-- class name="hbm.threeDCloudByMe.test.DeleteCatalogAdmin"/ -->
+			<!--class name="hbm.threeDCloudByMe.test.DeleteCatalogContributor"/ -->
+			<class name="hbm.threeDCloudByMe.test.DeletePrdFromFamilySuperAdmin" />
+			<!--class name="hbm.threeDCloudByMe.test.DeletePrdFromFamilyAdmin"/ -->
+			<!--class name="hbm.threeDCloudByMe.test.DeletePrdFromFamilyContributor"/ -->
+			<class name="hbm.threeDCloudByMe.test.DeleteFamSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.DeleteFamAdmin" />
+			<!-- class name="hbm.threeDCloudByMe.test.DeleteFamContributor"/ -->
+			<!-- class name="hbm.threeDCloudByMe.test.EditMaterial"/ -->
+			<!-- class name="hbm.threeDCloudByMe.test.EditPrdAdmin"/ -->
+			<!-- class name="hbm.threeDCloudByMe.test.EditPrdContributor"/ -->
+			<class name="hbm.threeDCloudByMe.test.EditPrdSuperAdmin" />
+			<class name="hbm.threeDCloudByMe.test.DeletePrdSuperAdmin" />
+			<!--class name="hbm.threeDCloudByMe.test.DeletePrdAdmin"/ -->
+			<!--class name="hbm.threeDCloudByMe.test.DeletePrdContributor"/ -->
+			<class name="hbm.threeDCloudByMe.test.MDMVerifyProduct" />
+		</classes>
+	</test> <!-- Homebyme 3DCLOUDBYME test1 in Chrome -->
+</suite> <!-- Homebyme suite -->

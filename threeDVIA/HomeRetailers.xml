@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HBM for Home Retailers suite" verbose="3" parallel="false">
+	<test name="Enterprise Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="enterprisebuildid"></parameter>
+		<parameter name="platform" value="linux"></parameter>
+		<!--parameter name="nodeURL" value="http://localhost:4448/wd/hub"></parameter>-->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- Enterprise Build Info -->
+	<test name="Home Retailers Scenario Test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hrpreprod"></parameter>
+		<parameter name="platform" value="linux"></parameter>
+		<!--parameter name="nodeURL" value="http://localhost:4448/wd/hub"></parameter>-->
+		<classes>
+			<class name="hr.planner.scenarioTest.HrRedWireGB" />		
+		</classes>
+	</test> <!-- Home Retailers Scenario Test in Chrome -->
+	<test name="HBR Imperial Unit Scenario in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hrpreprodus"></parameter>
+		<parameter name="platform" value="linux"></parameter>
+		<!--parameter name="nodeURL" value="http://localhost:4448/wd/hub"></parameter>-->
+		<classes>	
+			<class name="hr.planner.scenarioTest.HrRedWireUS" />		
+		</classes>
+	</test> <!-- HBR Imperial Unit Scenario in Chrome -->
+	<test name="Home Retailers Test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hrpreprod"></parameter>
+		<parameter name="platform" value="linux"></parameter>
+		<!--parameter name="nodeURL" value="http://localhost:4448/wd/hub"></parameter>-->
+		<classes>
+			<class name="hr.planner.functionTest.AddRoom" />
+			<class name="hr.planner.functionTest.Bed" />
+			<class name="hr.planner.functionTest.Favorites" />
+			<class name="hr.planner.functionTest.Search" />
+			<class name="hr.planner.functionTest.ConfigurableProduct" />
+			<class name="hr.planner.functionTest.NewProject" />
+			<class name="hr.planner.functionTest.OpenProject" />
+			<class name="hr.planner.functionTest.OpenProjectPage" />
+			<class name="hr.planner.functionTest.Door" />
+			<class name="hr.planner.functionTest.DuplicateProject" />
+			<class name="hr.planner.functionTest.DeleteOrDuplicateMultipleProducts" />
+			<class name="hr.planner.functionTest.DeleteProject" />
+			<class name="hr.planner.functionTest.LevelManager" />
+			<class name="hr.planner.functionTest.Measure" />
+			<class name="hr.planner.functionTest.MyPictureNTwoDPlan" />
+			<class name="hr.planner.functionTest.ProjectPageTest" />
+			<class name="hr.planner.functionTest.ProjectOverview" />
+			<class name="hr.planner.functionTest.ProductInSelectedStateAfterInsertion" />
+			<class name="hr.planner.functionTest.PriceDetails" />
+			<class name="hr.planner.functionTest.RealisticImage" />
+			<class name="hr.planner.functionTest.ScreenshotImage" />
+			<class name="hr.planner.functionTest.Take360Image" />
+			<class name="hr.planner.functionTest.UngroupProd" />			
+			<class name="hr.planner.functionTest.ToolBox" />
+			<class name="hr.planner.functionTest.UploadTwoDPlan" />
+			<class name="hr.planner.functionTest.Wall" />
+			<class name="hr.planner.functionTest.RoofWindow" />
+			<class name="hr.planner.functionTest.Decorate" />
+			<class name="hr.planner.functionTest.HomeByMeProjectImport" />
+		</classes>
+	</test> <!-- Home Retailers Test in docker Chrome -->	
+</suite> <!-- HBM for Home Retailers suite -->

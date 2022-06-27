@@ -1,0 +1,136 @@
+Cabinets € 11 125,00
+Reference Name Price Quantity Total
+KDSA60 KDSA60 H=800 W=600 D=600 € 1 190,00 1 € 1 190,00
+URKD60 URKD60 -- € 225,00 1 € 225,00  
+F6020_Opera_Bois F6020_Opera_Bois -- € 90,00 2 € 180,00  
+26956 26956 H=144 W=564 D=542 € 160,00 1 € 160,00  
+DBKI60 Anti-heat Shelf H=18 W=564 D=539 € 149,00 1 € 149,00  
+27004 27004 -- € 135,00 1 € 135,00  
+26926 26926 H=212 W=564 D=542 € 131,00 1 € 131,00  
+F6040_Opera_Bois F6040_Opera_Bois -- € 110,00 1 € 110,00  
+WT_CUTOUT_RECTANGULAR WT_CUTOUT_RECTANGULAR W=55 D=55 € 100,00 1 € 100,00  
+UD2SA100 UD2SA100 H=800 W=1000 D=600 € 1 017,00 1 € 1 017,00
+26929 26929 -- € 131,00 2 € 262,00  
+UR100 UR100 -- € 250,00 1 € 250,00  
+F10020_Opera_Bois F10020_Opera_Bois -- € 90,00 2 € 180,00  
+26960 26960 -- € 170,00 1 € 170,00  
+F10040_Opera_Bois F10040_Opera_Bois -- € 110,00 1 € 110,00  
+opera_cover_panel_bois_62_80 opera_cover_panel_bois_62_80 -- € 45,00 1 € 45,00  
+UD2SA100 UD2SA100 H=800 W=1000 D=600 € 1 017,00 1 € 1 017,00
+26929 26929 -- € 131,00 2 € 262,00  
+UR100 UR100 -- € 250,00 1 € 250,00  
+F10020_Opera_Bois F10020_Opera_Bois -- € 90,00 2 € 180,00  
+26960 26960 -- € 170,00 1 € 170,00  
+F10040_Opera_Bois F10040_Opera_Bois -- € 110,00 1 € 110,00  
+opera_cover_panel_bois_62_80 opera_cover_panel_bois_62_80 -- € 45,00 1 € 45,00  
+UD2SA60 UD2SA60 H=800 W=600 D=600 € 962,00 1 € 962,00
+26926 26926 H=212 W=564 D=542 € 131,00 2 € 262,00  
+UR60 UR60 H=800 W=600 D=600 € 250,00 1 € 250,00  
+F6020_Opera_Bois F6020_Opera_Bois -- € 90,00 2 € 180,00  
+26956 26956 H=144 W=564 D=542 € 160,00 1 € 160,00  
+F6040_Opera_Bois F6040_Opera_Bois -- € 110,00 1 € 110,00  
+UD2SA30 UD2SA30 H=800 W=300 D=600 € 825,00 1 € 825,00
+26922 26922 -- € 120,00 2 € 240,00  
+UR30 UR30 -- € 200,00 1 € 200,00  
+F3020_Opera_Bois F3020_Opera_Bois -- € 80,00 2 € 160,00  
+26952 26952 -- € 140,00 1 € 140,00  
+F3040_Opera_Bois F3040_Opera_Bois -- € 85,00 1 € 85,00  
+UD2SA30 UD2SA30 H=800 W=300 D=600 € 825,00 1 € 825,00
+26922 26922 -- € 120,00 2 € 240,00  
+UR30 UR30 -- € 200,00 1 € 200,00  
+F3020_Opera_Bois F3020_Opera_Bois -- € 80,00 2 € 160,00  
+26952 26952 -- € 140,00 1 € 140,00  
+F3040_Opera_Bois F3040_Opera_Bois -- € 85,00 1 € 85,00  
+GVARIO03 GVARIO03 H=2200 W=600 D=600 € 707,00 1 € 707,00
+HR6003 HR6003 H=2200 W=600 D=600 € 300,00 1 € 300,00  
+F60120_Opera_Bois F60120_Opera_Bois -- € 140,00 1 € 140,00  
+F60100_Opera_Bois F60100_Opera_Bois -- € 135,00 1 € 135,00  
+opera_cover_panel_bois_62_240 opera_cover_panel_bois_62_240 -- € 50,00 1 € 50,00  
+opera_cover_panel_bois_62_80 opera_cover_panel_bois_62_80 -- € 45,00 1 € 45,00  
+H95 Hinge 95 -- € 6,00 3 € 18,00  
+85412 Shelf Protector -- € 10,00 1 € 10,00  
+18674 Ventilation Grid H=80 W=483.38 D=0.84 € 9,00 1 € 9,00  
+GMO032 GMO032 H=2200 W=600 D=600 € 689,00 1 € 689,00
+HR6003 HR6003 H=2200 W=600 D=600 € 300,00 1 € 300,00  
+F6060_Opera_Bois F6060_Opera_Bois -- € 90,00 2 € 180,00  
+25123 Damper -- € 49,00 2 € 98,00  
+opera_cover_panel_bois_62_240 opera_cover_panel_bois_62_240 -- € 50,00 1 € 50,00  
+opera_cover_panel_bois_62_80 opera_cover_panel_bois_62_80 -- € 45,00 1 € 45,00  
+H110 Hinge 110 -- € 8,00 2 € 16,00  
+U2DA10037 U2DA10037 H=800 W=1000 D=370 € 683,00 1 € 683,00
+UR10037 UR10037 -- € 245,00 1 € 245,00  
+F10040_Opera_Bois F10040_Opera_Bois -- € 110,00 2 € 220,00  
+26410 26410 -- € 100,00 2 € 200,00  
+opera_cover_panel_bois_39_86 opera_cover_panel_bois_39_86 -- € 18,00 1 € 18,00  
+U2DA10037 U2DA10037 H=800 W=1000 D=370 € 683,00 1 € 683,00
+UR10037 UR10037 -- € 245,00 1 € 245,00  
+F10040_Opera_Bois F10040_Opera_Bois -- € 110,00 2 € 220,00  
+26410 26410 -- € 100,00 2 € 200,00  
+opera_cover_panel_bois_39_86 opera_cover_panel_bois_39_86 -- € 18,00 1 € 18,00  
+SPUD90 SPUD90 H=800 W=900 D=600 € 575,00 1 € 575,00
+URSP90 URSP90 -- € 250,00 1 € 250,00  
+F4580_Opera_Bois F4580_Opera_Bois -- € 100,00 2 € 200,00  
+25123 Damper -- € 49,00 2 € 98,00  
+H125 Hinge 125 -- € 6,00 2 € 12,00  
+85412 Shelf Protector -- € 10,00 1 € 10,00  
+APVSB Sealing Kit -- € 5,00 1 € 5,00  
+W9002 W9002 H=800 W=900 D=370 € 510,00 1 € 510,00
+F4580_Opera_Bois F4580_Opera_Bois -- € 100,00 2 € 200,00  
+WR9001 WR9001 -- € 160,00 1 € 160,00  
+25123 Damper -- € 49,00 2 € 98,00  
+EBW90 EBW90 -- € 20,00 2 € 40,00  
+H125 Hinge 125 -- € 6,00 2 € 12,00  
+WDAF6001 WDAF6001 H=600 W=600 D=370 € 510,00 1 € 510,00
+VANEAU VANEAU H=609.42 W=561 D=378.5 € 200,00 1 € 200,00  
+WR6001 WR6001 -- € 120,00 1 € 120,00  
+F6060_Opera_Bois F6060_Opera_Bois -- € 90,00 1 € 90,00  
+25123 Damper -- € 49,00 1 € 49,00  
+opera_cover_panel_bois_62_80 opera_cover_panel_bois_62_80 -- € 45,00 1 € 45,00  
+H125 Hinge 125 -- € 6,00 1 € 6,00  
+W6002 W6002 H=800 W=600 D=370 € 330,00 1 € 330,00
+WR6002 WR6002 -- € 120,00 1 € 120,00  
+F6080_Opera_Bois F6080_Opera_Bois -- € 110,00 1 € 110,00  
+25123 Damper -- € 49,00 1 € 49,00  
+opera_cover_panel_bois_62_80 opera_cover_panel_bois_62_80 -- € 45,00 1 € 45,00  
+H125 Hinge 125 -- € 6,00 1 € 6,00  
+W3002 W3002 H=800 W=300 D=370 € 301,00 1 € 301,00
+F3080_Opera_Bois F3080_Opera_Bois -- € 100,00 1 € 100,00  
+WR3002 WR3002 -- € 90,00 1 € 90,00  
+25123 Damper -- € 49,00 1 € 49,00  
+opera_cover_panel_bois_39_86 opera_cover_panel_bois_39_86 -- € 18,00 2 € 36,00  
+EBW30 EBW30 -- € 10,00 2 € 20,00  
+H125 Hinge 125 -- € 6,00 1 € 6,00  
+W3002 W3002 H=800 W=300 D=370 € 301,00 1 € 301,00
+F3080_Opera_Bois F3080_Opera_Bois -- € 100,00 1 € 100,00  
+WR3002 WR3002 -- € 90,00 1 € 90,00  
+25123 Damper -- € 49,00 1 € 49,00  
+opera_cover_panel_bois_39_86 opera_cover_panel_bois_39_86 -- € 18,00 2 € 36,00  
+EBW30 EBW30 -- € 10,00 2 € 20,00  
+H125 Hinge 125 -- € 6,00 1 € 6,00  
+Worktops and wall panels € 740,00
+Reference Name Price Quantity Total
+RUWOOD WOOD OAK -- -- -- € 400,00
+RUWOOD_1 RUWOOD_1 H=28 W=1860 D=635 € 100,00 1 € 100,00
+RUWOOD_2 RUWOOD_2 H=28 W=2460 D=635 € 100,00 1 € 100,00
+RUWOOD_2 RUWOOD_2 H=28 W=2460 D=635 € 100,00 1 € 100,00
+RUWOOD_2 RUWOOD_2 H=28 W=2460 D=635 € 100,00 1 € 100,00
+OPERA_Plinth_Bois OPERA H=80 W=2100 D=10 -- -- € 300,00
+Appliances, sinks and taps € 2 332,00
+Reference Name Price Quantity Total
+HBM12CKT12 COOKTOP H=38 W=580 D=510 € 599,00 1 € 599,00
+JEFF JEFF H=873 W=540 D=549 € 395,00 1 € 395,00
+KIR18V60 FRIDGE H=873 W=540 D=549 € 395,00 1 € 395,00
+HBA573BS0 CONFLANS H=595 W=595 D=589.33 € 349,00 1 € 349,00
+JEAN LUC JEAN LUC H=397 W=595 D=494.33 € 295,00 1 € 295,00
+KALADIN KALADIN H=199.85 W=379.81 D=470 € 284,00 1 € 284,00
+19489 Sink Plug -- € 30,00 1 € 30,00  
+14421 Strainer 1 bowl / Water Trap -- € 15,00 1 € 15,00
+Accessories and extras € 456,00
+Reference Name Price Quantity Total
+SAMMY SAMMY H=11.7 W=234 D=30 € 12,00 17 € 204,00
+EBV60 EBV60 -- € 30,00 3 € 90,00
+LEG_01 leg H=73 W=50 D=50 € 8,00 8 € 64,00
+EBW60 EBW60 -- € 18,00 2 € 36,00
+20298410 Assembly kit for kitchen island H=80 W=1230 D=10 € 8,00 4 € 32,00
+Filler_High_Unit_01 Filler for High Unit H=2200 W=100 D=600 € 30,00 1 € 30,00
+opera_cover_panel_bois_39_240 opera_cover_panel_bois_39_240 -- € 30,00 1 € 30,00  

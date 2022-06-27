@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TemplateEditor suite" verbose="3" parallel="false">
+	<test name="Enterprise Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="enterprisebuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- Enterprise Build Info -->
+	<test name="TemplateEditor Scenario test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="tepreprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.templateEditor.scenarioTest.IIShaped" />
+			<class name="kitchen.templateEditor.scenarioTest.IShaped" />
+			<class name="kitchen.templateEditor.scenarioTest.LShapedWithFiller" />
+			<class name="kitchen.templateEditor.scenarioTest.LShapedWithIsland" />
+			<class name="kitchen.templateEditor.scenarioTest.UShaped" />
+		</classes>
+	</test> <!-- TemplateEditor Scenario test in Chrome -->
+	<test name="TemplateEditor Function test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="tepreprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.templateEditor.functionTest.CeilingHeight" />
+			<class name="kitchen.templateEditor.functionTest.Door" />
+			<class name="kitchen.templateEditor.functionTest.RoomObject" />
+			<class name="kitchen.templateEditor.functionTest.Window" />
+			<class name="kitchen.templateEditor.functionTest.Wall" />
+			<class name="kitchen.templateEditor.functionTest.SloppedCeiling" />
+			<class name="kitchen.templateEditor.functionTest.CatalogFilter" />
+			<class name="kitchen.templateEditor.functionTest.Cabinets" />
+			<class name="kitchen.templateEditor.functionTest.Covering" />
+			<class name="kitchen.templateEditor.functionTest.Appliances" />
+			<class name="kitchen.templateEditor.functionTest.EditGroup" />
+			<class name="kitchen.templateEditor.functionTest.EditCirculations" />
+			<class name="kitchen.templateEditor.functionTest.EditCornerConstraint" />
+			<class name="kitchen.templateEditor.functionTest.EditDistToWallConstraint" />
+			<class
+				name="kitchen.templateEditor.functionTest.EditRpcFaceToFaceConstraint" />
+			<class
+				name="kitchen.templateEditor.functionTest.EditRpcFacingSameDircConstraint" />
+			<class
+				name="kitchen.templateEditor.functionTest.EditRpcPerpEachOtherConstraint" />
+			<class
+				name="kitchen.templateEditor.functionTest.EditRpcPerpToSpecificSideConstraint" />
+			<class name="kitchen.templateEditor.functionTest.EditAlignmentConstraint" />
+			<class name="kitchen.templateEditor.functionTest.EditDistanceConstraint" />
+		</classes>
+	</test> <!-- TemplateEditor Function test in Chrome -->
+</suite> <!-- TemplateEditor suite -->

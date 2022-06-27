@@ -1,0 +1,222 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeByMe Web suite" verbose="3" parallel="false">
+	<test name="HomeByMe Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hbmbuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- HomeByMe Build Info -->	
+	<test name="HBM Web test Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>			
+			<class name="hbm.web.test.LandingPageTest" />
+			<class name="hbm.web.test.PartnerPageTest" />
+			<class name="hbm.web.test.VerifyImageFeed" />
+			<class name="hbm.web.test.VerifyInspirationPage" />
+			<class name="hbm.web.test.VerifyMediaPageWithSamePinProducts" />
+			<class name="hbm.web.test.DeleteProject" />
+			<class name="hbm.web.test.VerifyProjectPageInDiffLanguages" />
+			<class name="hbm.web.test.VerifyRS4toNonRS4" />					
+		</classes>
+	</test> <!-- HBM Web test Chrome -->
+		<test name="HBM Web Features test Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>			
+			<class name="hbm.web.test.Verify3DByMeFrmHBM" />
+			<class name="hbm.web.test.CreateNewFavList" />
+			<class name="hbm.web.test.VerifyFavorites" />
+			<class name="hbm.web.test.VerifyUserProfilePage" />
+			<class name="hbm.web.test.VerifyProjectPage" />
+			<class name="hbm.web.test.DuplicateProject" />
+			<class name="hbm.web.test.SaveGalleryProject" />			
+			<class name="hbm.web.test.ShareEmbededProject" />					
+		</classes>
+	</test> <!-- HBM Web test Chrome -->
+	<test name="HBM Web Services test in Chrome 1" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.BuyFPFurnished" />
+			<class name="hbm.web.test.BuyFPUnfurnished" />			
+			<class name="hbm.web.test.RejectFPRequest" />
+			<class name="hbm.web.test.NeedMoreFPInfo" />
+		</classes>
+	</test> <!-- HBM Web Services test in Chrome 1-->
+	<test name="HBM Web Services test in Chrome 2" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.IDSBuySingle" />
+			<class name="hbm.web.test.IDSBuyIncompleteForm" />
+			<class name="hbm.web.test.IDSBuyMulti" />
+			<class name="hbm.web.test.IDSDeliverMulti" />
+			<class name="hbm.web.test.RejectIDSRequest" />
+		</classes>
+	</test> <!-- HBM Web Services test in Chrome 2-->
+	<test name="HBM Web Social Account SignUp test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.FacebookSignUp" />
+			<class name="hbm.web.test.FacebookDeleteAc" />
+			<class name="hbm.web.test.GoogleSignUp" />
+			<class name="hbm.web.test.GoogleDeleteAc" />								
+			<class name="hbm.web.test.VerifyCommunityContent" />
+		</classes>
+	</test> <!-- HBM Web Social Account SignUp test in Chrome -->
+	<test name="HBM Web SignUp test in Chrome 1">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.HbmNewUser" />
+			<class name="hbm.web.test.BuyOneTimePack" />
+			<class name="hbm.web.test.PurchaseAdditionalProjects" />	
+			<class name="hbm.web.test.PurchaseRealisticImages" />
+			<class name="hbm.web.test.Purchase360Images" />
+			<class name="hbm.web.test.LoginTest" />
+			<class name="hbm.web.test.VerifyAccountPage" />
+			<class name="hbm.web.test.ChangePassword" />
+			<class name="hbm.web.test.DeleteAccount" />
+		</classes>
+	</test> <!-- HBM Web SignUp test in Chrome 1-->
+		<test name="MDM create project test in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hbm4"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.MDMCreateProject" />
+		</classes>
+	</test> <!-- MDM SignUp test in Chrome -->
+	<test name="HBM Web SignUp test in Chrome 2">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.SignUpFromTryNow" />
+			<class name="hbm.web.test.DeleteAccount" />		
+		</classes>
+	</test> <!-- HBM Web SignUp test in Chrome 2-->				
+	<test name="MDM SignUp test in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hbm4"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.MdmSignUp" />			
+			<class name="hbm.web.test.MDMVerifyProjectPage" />
+		</classes>
+	</test> <!-- MDM SignUp test in Chrome -->
+	<test name="MDM user stats test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="cloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.threeDCloudByMe.test.MDMVerifyUser" />
+		</classes>
+	</test> <!-- MDM user stats test in Chrome -->
+	<test name="MDM Datasharing test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.MdmDataSharing" />
+		</classes>
+	</test> <!-- MDM Datasharing test in Chrome -->
+	<test name="MDM no user in stats test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="cloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.threeDCloudByMe.test.MDMVerifyNoDataSharing" />
+		</classes>
+	</test> <!-- MDM user stats test in Chrome -->
+	<test name="MDM Delete User in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.DeleteMDMAccount" />
+			<class name="hbm.web.test.ShareAndDeleteMedia" />
+			<class name="hbm.web.test.UpgradeRenderingImage" />
+			<class name="hbm.web.test.VerifyProcessedUserProduct" />
+		</classes>
+	</test> <!-- MDM Datasharing test in Chrome -->
+	<test name="Draftsight Embed test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="draftsight"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.DraftSightEmbedTest" />
+		</classes>
+	</test> <!-- Draftsight Embed test in Chrome -->
+	<test name="HBM Web Subscription test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.VerifySubscriptions" />
+		</classes>
+	</test> <!-- HBM Web Subscription test in Chrome -->
+	<test name="Embed HBM Project test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="embedhbm"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.EmbedHBMProject" />
+		</classes>
+	</test> <!-- Embed HBM Project test in Chrome -->
+	<test name="HBM AlphaOrBeta feature tests in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.VerifyNewGeometryEditorAlpha" />
+			<class name="hbm.web.test.Verify3DEditorProducts" />
+		</classes>
+	</test> <!-- HBM AlphaOrBeta feature tests in Chrome -->
+</suite> <!-- HomeByMe Web suite -->

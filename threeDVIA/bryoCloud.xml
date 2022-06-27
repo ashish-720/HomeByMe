@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Homebyme suite" verbose="3" parallel="false">
+	<test name="Enterprise Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="enterprisestagingbuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="false"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- Enterprise Build Info -->
+	<test name="Bryo 3DCLOUDBYME test in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="entpreprodstagingcloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.threeDCloudByMe.test.CreateProduct" />
+			<class name="kitchen.threeDCloudByMe.test.CreateMaterialAsAProduct" />
+			<class name="kitchen.threeDCloudByMe.test.CreateMaterial" />
+			<class name="kitchen.threeDCloudByMe.test.CreateApplicativeRule" />
+			<class name="kitchen.threeDCloudByMe.test.CreateTemplate" />			
+		</classes>
+	</test> <!-- Bryo 3DCLOUDBYME test1 in Chrome -->
+	<test name="Bryo 3DCloudByMe Main Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="entpreprodcloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>			
+			<class name="kitchen.threeDCloudByMe.test.VerifyFamilyCannotBeModified" />
+			<class name="kitchen.threeDCloudByMe.test.VerifyMaterialCanBeEdited" />
+			<class name="kitchen.threeDCloudByMe.test.VerifyProductCanBeEdited" />			
+			<class name="kitchen.threeDCloudByMe.test.VerifyProductCannotBeAdded" />				
+			<class name="kitchen.threeDCloudByMe.test.VerifyProductRuleCannotBeModified" />
+			<class name="kitchen.threeDCloudByMe.test.VerifyApplicativeRuleCannotBeModified" />		
+		</classes>
+	</test> <!-- Bryo 3DCloudByMe Main Test -->
+	<test name="Bryo 3DCLOUDBYME test1 in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="entpreprodstagingcloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.threeDCloudByMe.test.CreateFamily" />
+			<class name="kitchen.threeDCloudByMe.test.VerifyProductDetails" />
+			<class name="kitchen.threeDCloudByMe.test.CreateCatalog" />			
+			<class name="kitchen.threeDCloudByMe.test.CreateApplicativeRuleCatalog" />				
+			<class name="kitchen.threeDCloudByMe.test.VerifyCatalog" />
+			<class name="kitchen.threeDCloudByMe.test.VerifyFamily" />
+			<class name="kitchen.threeDCloudByMe.test.CreateTemplateCatalog" />
+			<class name="kitchen.threeDCloudByMe.test.Synchronize" />
+			<class name="kitchen.threeDCloudByMe.test.DeletePrdFromCatalog" />
+			<class name="kitchen.threeDCloudByMe.test.DeletePrdFromFamily" />
+			<class name="kitchen.threeDCloudByMe.test.EditMaterial" />
+			<class name="kitchen.threeDCloudByMe.test.EditProduct" />
+			<class name="kitchen.threeDCloudByMe.test.DeleteDateCatalog" />
+		</classes>		
+	</test> <!-- Bryo 3DCLOUDBYME test1 in Chrome -->
+	<test name="Test 3DCloud Product in Bryo after Sync" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="bryoPreprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://localhost:4446/wd/hub"></parameter>  -->
+		<classes>			
+			<class name="kitchen.bryo.functionTest.CloudProductTest" />		
+		</classes>
+	</test> <!-- Test 3DCloud Product in Bryo after Sync -->
+</suite> <!-- Homebyme suite -->

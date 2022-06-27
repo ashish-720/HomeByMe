@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Homebyme suite" verbose="3" parallel="false">
+  <test name="Homebyme test in chrome">
+  	<parameter name="browser" value="chrome"></parameter>
+  	<parameter name="link" value="preprod"></parameter>   		
+    <classes>
+      <class name="com.homebyme.functionTest.Room"/>      
+      <class name="com.homebyme.functionTest.LevelNavigatorTest"/>
+      <class name="com.homebyme.functionTest.FrontDoor"/>
+      <class name="com.homebyme.functionTest.InteriorDoor"/>
+      <class name="com.homebyme.functionTest.SimpleWindow"/>
+      <class name="com.homebyme.functionTest.Staircase"/>      
+      <class name="com.homebyme.functionTest.FreeShape"/>      
+      <class name="com.homebyme.functionTest.Beams"/>      
+      <class name="com.homebyme.functionTest.Sofa"/>     
+      <class name="com.homebyme.functionTest.PlantsnFlowers"/>
+      <class name="com.homebyme.functionTest.Brands"/>
+      <class name="com.homebyme.functionTest.Measure"/>
+      <class name="com.homebyme.functionTest.Wall"/>
+      <class name="hbm.planner.functionTest.SearchNAdd"/>
+      <class name="hbm.planner.functionTest.Exterior"/>
+      <class name="hbm.planner.functionTest.ScreenshotTest"/>
+      <class name="hbm.planner.functionTest.Duplicate"/>
+      <class name="hbm.planner.functionTest.Replace"/>
+      <class name="hbm.planner.functionTest.FloorPlanPDF"/>      
+    </classes>
+   </test> <!-- Homebyme test in chrome -->
+</suite> <!-- Homebyme suite -->

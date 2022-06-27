@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssemblyEditor suite" verbose="3" parallel="false">
+	<test name="Enterprise Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="enterprisestagingbuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- Enterprise Build Info -->
+	<test name="AssemblyEditor Scenario test in Chrome1">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="assemblyeditor"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.assemblyEditor.scenarioTest.CreateLegAssembly" />
+			<class name="kitchen.assemblyEditor.scenarioTest.CreateBoxAssembly" />
+			<class name="kitchen.assemblyEditor.functionTest.Parameters" />
+			<class name="kitchen.assemblyEditor.functionTest.Component" />
+			<class name="kitchen.assemblyEditor.functionTest.Relations" />
+			<class name="kitchen.assemblyEditor.functionTest.Animations" />
+			<class name="kitchen.assemblyEditor.functionTest.OutputSets" />
+			<class name="kitchen.assemblyEditor.functionTest.AnchorPoints" />
+
+		</classes>
+	</test> <!-- AssemblyEditor Scenario test in Chrome -->
+	<test name="Bryo 3DCLOUDBYME test in Chrome2">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="entpreprodstagingcloud"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.threeDCloudByMe.test.CreateProductBoxAssembly" />
+			<class name="kitchen.threeDCloudByMe.test.CreateProductLegAssembly" />
+			<class name="kitchen.threeDCloudByMe.test.CreateCatalogAssemblyEditor" />
+		</classes>
+	</test> <!-- Bryo 3DCLOUDBYME test1 in Chrome -->
+</suite> <!-- Homebyme suite -->

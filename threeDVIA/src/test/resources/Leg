@@ -1,0 +1,7 @@
+type;Legs
+Materials;Steel
+Color;Black
+Dim;V/E/-,Default,width,null,Discrete length (mm),50/100,P1/P2,50:V/E/-,Default,depth,null,Discrete length (mm),50/100,P1/P2,50:V/E/-,Default,height,null,Continuous length (mm),10/1500
+Option;-/-/-,New,packUnitNumber,Pack Unit Number,Discrete variation,50/100,P1/P2,50:-/-/-,New,packDoubleNumber,Pack Double Number,Continuous variation,50/500/1000:-/-/-,New,packTripleBoolean,Pack Triple Boolean,True/false,false
+Mat;-/-/-,Default,01,Leg Material,Steel/metal_acier_poli_01>metal_acier_semi_poli_01!Plastic/pvc_01_noir_01>serigraphie_01,Steel/metal_acier_poli_01:-/-/-,New,LegMat,Leg Mat,Steel/metal_acier_poli_01>metal_acier_semi_poli_01,Steel/metal_acier_poli_01
+Prd;-/-/-,New,leg_01,01,Legs/LEG_01>LEG_02,Legs/LEG_02

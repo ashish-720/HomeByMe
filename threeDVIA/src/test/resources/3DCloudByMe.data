@@ -1,0 +1,7 @@
+Chair;type=Chairs,prdDesc=Product desc,type=Continuous length (mm),prdDimsnRangeMin=100,prdDimsnRangeMax=1500,prdPossibleMaterials=Plastic,refPrdName=null/
+Lamp;type=Table lamp,prdDesc=Product desc,type=Continuous length (mm),prdDimsnRangeMin=100,prdDimsnRangeMax=1500,prdPossibleMaterials=Plastic,refPrdName=lamp/
+UA80;type=Cabinet,prdDesc=Product desc,type=Continuous length (mm),prdDimsnRangeMin=100,prdDimsnRangeMax=1500,prdPossibleMaterials=Plastic,refPrdName=Base cabinet/
+Wood;type=Paints,prdDesc=Product desc,type=null,prdDimsnRangeMin=100,prdDimsnRangeMax=1500,prdPossibleMaterials=null,refPrdName=null,materials=Satin Paint,color=Black,styles=Asian/
+Carpet;type=Paints,prdDesc=Product desc,type=null,prdDimsnRangeMin=100,prdDimsnRangeMax=1500,prdPossibleMaterials=null,refPrdName=null,materials=Satin Paint,color=Black,styles=Asian/
+ProductRule1;type=Compatibility,appDist=bryo,product=tabouret_bar_03/luminaire_pose_02/UA80,option=Width:real/Depth:real/Height:real,optionParameter=Continuous variation:100-1500/Continuous variation:100-1500/Continuous variation:100-1500
+Leg;type=Legs,prdDesc=Leg Commercial description,dimsn=old,type=Discrete length (mm),possibleValue=50,defaultValue=50 

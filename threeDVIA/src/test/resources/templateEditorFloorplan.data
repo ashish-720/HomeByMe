@@ -1,0 +1,178 @@
+COLOMN;0,objects:objects>columns
+COLUMN BY CIRCUMFERENCE;1,objects:objects>columns
+BOX OBJECT;0,objects:objects>freeShapes
+COLUMN;1,objects:objects>freeShapes
+Water pipe;2,objects:objects>freeShapes
+RADIATOR;0,objects:objects>radiators
+DOUBLE WINDOW;0,openings:window>doubleWindow
+SIMPLE WINDOW;0,openings:window>simpleWindow
+FIXED WINDOW;0,openings:window>fixedWindow
+OPENING;0,openings:door>Single doors
+INTERIOR DOOR;1,openings:door>simpleDoor
+GLASS DOOR;0,openings:door>doubleDoor
+PATIO DOOR;0,openings:door>patioDoor
+SLIDING DOOR;1,openings:door>patioDoor
+PAINT;0,covering:paint>Paint
+PAINT;1,covering:paint>Paint
+PAINT;2,covering:paint>Paint
+PAINT;3,covering:paint>Paint
+PAINT;4,covering:paint>Paint
+PAINT;5,covering:paint>Paint
+PAINT;6,covering:paint>Paint
+PAINT;7,covering:paint>Paint
+PAINT;8,covering:paint>Paint
+PAINT;9,covering:paint>Paint
+PAINT;10,covering:paint>Paint
+PAINT;12,covering:paint>Paint
+PAINT;13,covering:paint>Paint
+PAINT;14,covering:paint>Paint
+PAINT;15,covering:paint>Paint
+PAINT;16,covering:paint>Paint
+PAINT;17,covering:paint>Paint
+PAINT;18,covering:paint>Paint
+PAINT;19,covering:paint>Paint
+PAINT;20,covering:paint>Paint
+PAINT;21,covering:paint>Paint
+PAINT;22,covering:paint>Paint
+PAINT;23,covering:paint>Paint
+PAINT;24,covering:paint>Paint
+PAINT;25,covering:paint>Paint
+PAINT;26,covering:paint>Paint
+PAINT;27,covering:paint>Paint
+PAINT;28,covering:paint>Paint
+PAINT;29,covering:paint>Paint
+PAINT;30,covering:paint>Paint
+PAINT;31,covering:paint>Paint
+PAINT;32,covering:paint>Paint
+PAINT;33,covering:paint>Paint
+PAINT;34,covering:paint>Paint
+PAINT;35,covering:paint>Paint
+PAINT;36,covering:paint>Paint
+PAINT;37,covering:paint>Paint
+PAINT;38,covering:paint>Paint
+PAINT;39,covering:paint>Paint
+PAINT;40,covering:paint>Paint
+PAINT;41,covering:paint>Paint
+PAINT;42,covering:paint>Paint
+PAINT;43,covering:paint>Paint
+PAINT;44,covering:paint>Paint
+PAINT;45,covering:paint>Paint
+PAINT;46,covering:paint>Paint
+PAINT;47,covering:paint>Paint
+PAINT;48,covering:paint>Paint
+PAINT;49,covering:paint>Paint
+PAINT;50,covering:paint>Paint
+PAINT;51,covering:paint>Paint
+PAINT;52,covering:paint>Paint
+PAINT;53,covering:paint>Paint
+PAINT;54,covering:paint>Paint
+PAINT;55,covering:paint>Paint
+PAINT;56,covering:paint>Paint
+PAINT;57,covering:paint>Paint
+PAINT;58,covering:paint>Paint
+PAINT;59,covering:paint>Paint
+PAINT;60,covering:paint>Paint
+PAINT;61,covering:paint>Paint
+PAINT;62,covering:paint>Paint
+PAINT;63,covering:paint>Paint
+PAINT;64,covering:paint>Paint
+PAINT;65,covering:paint>Paint
+PAINT;66,covering:paint>Paint
+PAINT;67,covering:paint>Paint
+PAINT;68,covering:paint>Paint
+PAINT;69,covering:paint>Paint
+PAINT;70,covering:paint>Paint
+PAINT;71,covering:paint>Paint
+PAINT;72,covering:paint>Paint
+PAINT;73,covering:paint>Paint
+PAINT;74,covering:paint>Paint
+PAINT;75,covering:paint>Paint
+PAINT;76,covering:paint>Paint
+PAINT;77,covering:paint>Paint
+PAINT;78,covering:paint>Paint
+PAINT;79,covering:paint>Paint
+PAINT;80,covering:paint>Paint
+PAINT;81,covering:paint>Paint
+PAINT;82,covering:paint>Paint
+PAINT;83,covering:paint>Paint
+PAINT;84,covering:paint>Paint
+PAINT;85,covering:paint>Paint
+PAINT;86,covering:paint>Paint
+PAINT;87,covering:paint>Paint
+PAINT;88,covering:paint>Paint
+PAINT;89,covering:paint>Paint
+PAINT;90,covering:paint>Paint
+PAINT;91,covering:paint>Paint
+PAINT;92,covering:paint>Paint
+PAINT;93,covering:paint>Paint
+PAINT;94,covering:paint>Paint
+PAINT;95,covering:paint>Paint
+PAINT;96,covering:paint>Paint
+PAINT;97,covering:paint>Paint
+PAINT;98,covering:paint>Paint
+PAINT;99,covering:paint>Paint
+PAINT;100,covering:paint>Paint
+PAINT;101,covering:paint>Paint
+PAINT;102,covering:paint>Paint
+PAINT;103,covering:paint>Paint
+PAINT;104,covering:paint>Paint
+PAINT;105,covering:paint>Paint
+PAINT;106,covering:paint>Paint
+PAINT;107,covering:paint>Paint
+PAINT;108,covering:paint>Paint
+PAINT;109,covering:paint>Paint
+PAINT;110,covering:paint>Paint
+PAINT;111,covering:paint>Paint
+CONCRETE;0,covering:paint>Concrete
+WALLPAPER;0,covering:paint>Wallpaper
+WALLPAPER;1,covering:paint>Wallpaper
+WALLPAPER;2,covering:paint>Wallpaper
+WALLPAPER;3,covering:paint>Wallpaper
+WALLPAPER;4,covering:paint>Wallpaper
+WALLPAPER;5,covering:paint>Wallpaper
+Glastonbury Stripe;6,covering:paint>Wallpaper
+Glastonbury Stripe;7,covering:paint>Wallpaper
+Glastonbury Stripe;8,covering:paint>Wallpaper
+Apex;9,covering:paint>Wallpaper
+TILING;0,covering:paint>Wall tiles
+TILING;1,covering:paint>Wall tiles
+TILING;2,covering:paint>Wall tiles
+WALL TILE;3,covering:paint>Wall tiles
+TILING;0,covering:paint>Floor tiles
+TILING;1,covering:paint>Floor tiles
+TILING;2,covering:paint>Floor tiles
+TILING;3,covering:paint>Floor tiles
+TILING;4,covering:paint>Floor tiles
+TILING;5,covering:paint>Floor tiles
+TILING;6,covering:paint>Floor tiles
+TILING;7,covering:paint>Floor tiles
+TILING;8,covering:paint>Floor tiles
+TILING;9,covering:paint>Floor tiles
+TILING;10,covering:paint>Floor tiles
+TILING;11,covering:paint>Floor tiles
+TILING;12,covering:paint>Floor tiles
+TILING;13,covering:paint>Floor tiles
+TILING;14,covering:paint>Floor tiles
+TILING;15,covering:paint>Floor tiles
+TILING;16,covering:paint>Floor tiles
+TILING;17,covering:paint>Floor tiles
+HARDWOOD;0,covering:paint>Hardwood
+HARDWOOD;1,covering:paint>Hardwood
+HARDWOOD;2,covering:paint>Hardwood
+HARDWOOD;3,covering:paint>Hardwood
+HARDWOOD;4,covering:paint>Hardwood
+HARDWOOD;5,covering:paint>Hardwood
+HARDWOOD;6,covering:paint>Hardwood
+HARDWOOD;7,covering:paint>Hardwood
+HARDWOOD;8,covering:paint>Hardwood
+HARDWOOD;9,covering:paint>Hardwood
+HARDWOOD;10,covering:paint>Hardwood
+HARDWOOD;11,covering:paint>Hardwood
+HARDWOOD;12,covering:paint>Hardwood
+HARDWOOD;13,covering:paint>Hardwood
+HARDWOOD;14,covering:paint>Hardwood
+HARDWOOD;15,covering:paint>Hardwood
+HARDWOOD;16,covering:paint>Hardwood
+HARDWOOD;17,covering:paint>Hardwood
+HARDWOOD;18,covering:paint>Hardwood
+HARDWOOD;19,covering:paint>Hardwood

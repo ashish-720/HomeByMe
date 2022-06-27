@@ -1,0 +1,2 @@
+DistanceToWallParameters;groupImg=TE_cabinet1/TE_cabinet4,groupSide=left,leftImg=TE_cabinet1/TE_cabinet3,leftMinDist=100,rightImg=TE_cabinet2/TE_cabinet5,rightMinDist=100:
+AlignmentParameters;productOneImg=TE_cabinet1/TE_cabinet3,productTwoImg=TE_alignment3/TE_alignment4,margin=100,alignmentProduct=1,axisImg=TE_alignment5,x1Offset=-164,y1Offset=12,x2Offset=-19,y2Offset=27:

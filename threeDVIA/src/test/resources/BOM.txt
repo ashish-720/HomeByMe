@@ -1,0 +1,15 @@
+Cabinets € 635,00
+Reference Name Price Quantity Total
+U2DA80 U2DA80 H=800 W=800 D=600 € 635,00 1 € 635,00
+26958 undefined -- € 170,00 2 € 340,00  
+UR80 undefined -- € 250,00 1 € 250,00  
+madeleine_cover_panel_gris_62_80 madeleine_cover_panel_gris_62_80 H=800 W=13 D=620 € 45,00 1 € 45,00  
+Worktops and wall panels € 160,00
+Reference Name Price Quantity Total
+RUWOOD WOOD OAK -- -- -- € 100,00
+RUWOOD_1 RUWOOD_1 H=28 W=1860 D=635 € 100,00 1 € 100,00
+MADELEINE_Plinth_Gris MADELEINE H=80 W=2100 D=10 -- -- € 50,00
+Accessories and extras € 18,00
+Reference Name Price Quantity Total
+LAURA LAURA H=10 W=170 D=30 € 10,00 1 € 10,00
+LEG_01 leg H=73 W=50 D=50 € 8,00 1 € 8,00

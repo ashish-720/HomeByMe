@@ -1,0 +1,105 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomeByMe suite" verbose="3" parallel="false">
+	<!-- Run following test to create room only when all other test are running 
+		in parallel <test name="HBM Planner LevelNav test in Chrome" parallel="false"> 
+		<parameter name="browser" value="chrome"></parameter> <parameter name="link" 
+		value="preprod"></parameter> <parameter name="platform" value="win"></parameter> 
+		<classes> <class name="hbm.planner.functionTest.Room" /> </classes> </test> 
+		< HBM Planner LevelNav test in Chrome -->
+	<test name="HomeByMe Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hbmbuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<parameter name="headless" value="true"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.BuildInfo" />
+		</classes>
+	</test> <!-- HomeByMe Build Info -->
+	<test name="HBM Planner Function test in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.Room" />
+			<class name="hbm.planner.functionTest.RealisticRendering" />
+			<class name="hbm.planner.functionTest.Panoramic360Test" />
+			<class name="hbm.planner.functionTest.LevelNavigatorTest" />
+			<class name="hbm.planner.functionTest.LevelDelete" />
+			<class name="hbm.planner.functionTest.ProjectDetails" />
+			<class name="hbm.planner.functionTest.FloorPlanPDF" />
+			<class name="hbm.planner.functionTest.FrontDoor" />
+			<class name="hbm.planner.functionTest.InteriorDoor" />
+			<class name="hbm.planner.functionTest.SimpleWindow" />
+			<class name="hbm.planner.functionTest.Staircase" />
+			<class name="hbm.planner.functionTest.FreeShape" />
+			<class name="hbm.planner.functionTest.Plumbing" />
+			<class name="hbm.planner.functionTest.Beams" />
+			<class name="hbm.planner.functionTest.Sofa" />
+			<class name="hbm.planner.functionTest.Beds" />
+			<class name="hbm.planner.functionTest.PlantsnFlowers" />
+			<class name="hbm.planner.functionTest.Brands" />
+			<class name="hbm.planner.functionTest.Measure" />
+			<class name="hbm.planner.functionTest.Wall" />
+			<class name="hbm.planner.functionTest.SplitWall" />
+			<class name="hbm.planner.functionTest.SearchNAdd" />
+			<class name="hbm.planner.functionTest.ExternalWallColor" />
+			<class name="hbm.planner.functionTest.LocalSaveTest" />
+			<class name="hbm.planner.functionTest.Exterior" />
+			<class name="hbm.planner.functionTest.Pagination" />
+			<class name="hbm.planner.functionTest.UndoRedo" />
+			<class name="hbm.planner.functionTest.ScreenshotTest" />
+			<class name="hbm.planner.functionTest.InfoInBalloon" />
+			<class name="hbm.planner.functionTest.Duplicate" />
+			<class name="hbm.planner.functionTest.Replace" />
+			<class name="hbm.planner.functionTest.FavoriteList" />
+			<class name="hbm.planner.functionTest.IDSFromPlanner" />
+			<class name="hbm.planner.functionTest.FloorplanService" />			
+			<class name="hbm.planner.functionTest.SignUpFromPlanner" />
+			<class name="hbm.web.test.DeleteAccount" />	
+			<class name="hbm.planner.functionTest.SignUpFromBanner" />
+			<class name="hbm.planner.functionTest.RealisticImageShareCheckPlanner" />
+			<class name="hbm.planner.functionTest.RealisticImageDeletekPlanner" />
+			<class name="hbm.planner.functionTest.Annotations" />
+			<class name="hbm.planner.functionTest.IncludeAccessories" />
+			<class name="hbm.planner.functionTest.CommunityContent" />
+			<class name="hbm.planner.functionTest.SignUpFromGoogle" />
+			<class name="hbm.planner.functionTest.TechnicalElement" />
+			<class name="hbm.planner.functionTest.DeleteGoogleAccount" />
+			<class name="hbm.planner.functionTest.GeometricEditor"/>
+			<class name="hbm.planner.functionTest.Verify3DcloudProducts"/>
+		</classes>
+	</test> <!-- HBM Planner Function test in Chrome -->
+	<test name="HBM Scenario test in Chrome" parallel="false">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.web.test.DeleteAccount" />	
+			<class name="hbm.planner.scenarioTest.ImperialUnitTest" />
+			<class name="hbm.planner.scenarioTest.TrialProject" />
+			<class name="hbm.planner.scenarioTest.HBMRedwire" />
+			<class name="hbm.planner.functionTest.Export" />
+		</classes>
+	</test> <!-- HBM Scenario test on Chrome -->
+	<test name="HBM Scenario test in Edge" parallel="false">
+		<parameter name="browser" value="Edge"></parameter>
+		<parameter name="link" value="preprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.scenarioTest.HBMRedwireEdge" />
+		</classes>
+	</test> <!-- HBM Scenario test on Edge -->
+	<test name="PartnerPlanner test on Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="hbm4"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="hbm.planner.functionTest.PartnerPlanner" />
+		</classes>
+	</test> <!-- PartnerPlanner test on Chrome -->
+</suite> <!-- HomeByMe suite -->

@@ -1,0 +1,123 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Business Rules suite" verbose="3" parallel="false">
+	<test name="Enterprise Build Info">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="enterprisebuildid"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<!-- <classes>
+			<class name="hbm.planner.businessRules.BuildInfo" />
+		</classes>-->
+	</test> <!-- Enterprise Build Info -->
+	
+	<test name="Bryo Business Rules test in Chrome" parallel="true" thread-count="3">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="link" value="bryoPreprod"></parameter>
+		<parameter name="platform" value="win"></parameter>
+		<!-- parameter name="nodeURL" value="http://10.89.13.22:5566/wd/hub"></parameter> -->
+		<classes>
+			<class name="kitchen.bryo.businessRules.AdjacentWallUnitsRule" />
+			<class name="kitchen.bryo.businessRules.BaseCabinetPosition" />
+			<class name="kitchen.bryo.businessRules.CabinetVerticalIntersectionRuleCase1" />
+			<class name="kitchen.bryo.businessRules.CabinetVerticalIntersectionRuleCase2" />
+			<class name="kitchen.bryo.businessRules.CabinetVerticalIntersectionRuleCase3" />
+			<class name="kitchen.bryo.businessRules.CooktopHalfHeightCabinetRule" />
+			<class name="kitchen.bryo.businessRules.CooktopHighCabinetRule" />
+			<class name="kitchen.bryo.businessRules.CooktopSinkRule" />
+			<class name="kitchen.bryo.businessRules.CustomWallPanelAvailabilityRule" />
+			<class name="kitchen.bryo.businessRules.CustomWorktopAvailabilityRule" />
+			<class name="kitchen.bryo.businessRules.CutOutCutToEOWRuleCase1" />
+			<class name="kitchen.bryo.businessRules.CutOutCutToEOWRuleCase2" />
+			<class name="kitchen.bryo.businessRules.CutOutCutToEOWRuleCase3" />
+			<class name="kitchen.bryo.businessRules.CutoutOutsideWallPanel" />
+			<class name="kitchen.bryo.businessRules.CutoutOutsideWorktopBoard" />
+			<class name="kitchen.bryo.businessRules.CutoutsAndOtherOperationsRuleCase1" />
+			<class name="kitchen.bryo.businessRules.CutoutsAndOtherOperationsRuleCase2" />
+			<class name="kitchen.bryo.businessRules.CutToAnyOperationRuleCase1" />
+			<class name="kitchen.bryo.businessRules.CutToAnyOperationRuleCase2" />
+			<class name="kitchen.bryo.businessRules.DishwasherCornerSolutionRule" />
+			<class name="kitchen.bryo.businessRules.DishwasherPosition" />
+			<class name="kitchen.bryo.businessRules.FreestandingFridgePosition" />
+			<class name="kitchen.bryo.businessRules.FurnitureGapRule" />
+			<class name="kitchen.bryo.businessRules.FurnitureIntersectRule" />
+			<class name="kitchen.bryo.businessRules.HalfHeightCabinetPosition" />
+			<class name="kitchen.bryo.businessRules.HighCabinetPosition" />
+			<class name="kitchen.bryo.businessRules.HobHoodRuleCase1" />
+			<class name="kitchen.bryo.businessRules.HobHoodRuleCase2" />
+			<class name="kitchen.bryo.businessRules.HoodWallRule" />
+			<class name="kitchen.bryo.businessRules.IntersectionWithSlopedCeilingRuleCase1" />
+			<class name="kitchen.bryo.businessRules.IntersectionWithSlopedCeilingRuleCase2" /> 
+			<class name="kitchen.bryo.businessRules.IntersectionWithSlopedCeilingRuleCase3" />
+			<class name="kitchen.bryo.businessRules.IntersectionWithSlopedCeilingRuleCase4" />
+			<class name="kitchen.bryo.businessRules.JointOverApplianceRule" />
+			<class name="kitchen.bryo.businessRules.JointToAnyOperationRuleCase1" />
+			<class name="kitchen.bryo.businessRules.JointToAnyOperationRuleCase2" />
+			<class name="kitchen.bryo.businessRules.JointToAnyOperationRuleCase3" />
+			<class name="kitchen.bryo.businessRules.JointToAnyOperationRuleCase4" />
+			<class name="kitchen.bryo.businessRules.JointToAnyOperationRuleCase5" />
+			<class name="kitchen.bryo.businessRules.MaxDistanceBetweenWallAndHighCabinet" />
+			<class name="kitchen.bryo.businessRules.MinDimensionABDoubleCutRule" />
+			<class name="kitchen.bryo.businessRules.MinDimensionABRectCutOutRule" />
+			<class name="kitchen.bryo.businessRules.MinDimensionABSingleCutRule" />
+			<class name="kitchen.bryo.businessRules.MinDimensionABTripleCutRule" />
+			<class name="kitchen.bryo.businessRules.MinDimensionDCircCutOutRule" />
+			<class name="kitchen.bryo.businessRules.MinDimensionRCutRule" />
+			<class name="kitchen.bryo.businessRules.MinDimensionXYDoubleCutRule" />
+			<class name="kitchen.bryo.businessRules.MinDisBetCutoutsAndOtherOperationsRuleForWallPanelCase1" />
+			<class name="kitchen.bryo.businessRules.MinDisBetCutoutsAndOtherOperationsRuleForWallPanelCase2" />
+			<class name="kitchen.bryo.businessRules.MinDisBetCutoutsAndOtherOperationsRuleForWallPanelCase3" />
+			<class name="kitchen.bryo.businessRules.MinDisBetCutoutsAndOtherOperationsRuleForWallPanelCase4" />
+			<class name="kitchen.bryo.businessRules.MinDistanceBetweenSinkAndHobCase1" />
+			<class name="kitchen.bryo.businessRules.MinDistanceBetweenSinkAndHobCase2" />
+			<class name="kitchen.bryo.businessRules.MinDistanceBTTwoLinearsCase1" />
+			<class name="kitchen.bryo.businessRules.MinDistanceBTTwoLinearsCase2" />
+			<class name="kitchen.bryo.businessRules.MinDistanceBTTwoLinearsCase3" />
+			<class name="kitchen.bryo.businessRules.MinDistanceBTTwoLinearsCase4" />
+			<class name="kitchen.bryo.businessRules.MinDistanceDrainerGrooveAndOtherOperationCase1" />
+			<class name="kitchen.bryo.businessRules.MinDistanceDrainerGrooveAndOtherOperationCase2" />
+			<class name="kitchen.bryo.businessRules.MinDistanceDrainerGrooveAndOtherOperationCase3" />
+			<class name="kitchen.bryo.businessRules.MinDistanceDrainerGrooveAndOtherOperationCase4" />
+			<class name="kitchen.bryo.businessRules.MinDistanceDrainerGrooveAndOtherOperationCase5" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase1" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase2" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase3" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase4" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase5" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase6" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase7" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase8" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase9" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase10" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase11" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase12" />
+			<class name="kitchen.bryo.businessRules.MinDistanceSlopingCeilingAndCabinetsCase13" />
+			<class name="kitchen.bryo.businessRules.MinDistanceTapHoleAndSinkCase1" />
+			<class name="kitchen.bryo.businessRules.MinDistanceTapHoleAndSinkCase2" />
+			<class name="kitchen.bryo.businessRules.MinDistanceTapHoleAndWTBackEdgeCase1" />
+			<class name="kitchen.bryo.businessRules.MinDistanceTapHoleAndWTBackEdgeCase2" />
+			<class name="kitchen.bryo.businessRules.MinDistBTWallUnitToObstacleCeiling" />
+			<class name="kitchen.bryo.businessRules.ovenRule" />
+			<class name="kitchen.bryo.businessRules.SinkCabinetAndWindowRule" />
+			<class name="kitchen.bryo.businessRules.SinkCabinetPosition" />
+			<class name="kitchen.bryo.businessRules.ThicknessForHobOvenCabinetRule" />
+			<class name="kitchen.bryo.businessRules.TripleCutMaxDepthRule" />
+			<class name="kitchen.bryo.businessRules.UnitPosition" />
+			<class name="kitchen.bryo.businessRules.VentilationGrillToEOWandBOWRuleCase1" />
+			<class name="kitchen.bryo.businessRules.VentilationGrillToEOWandBOWRuleCase2" />
+			<class name="kitchen.bryo.businessRules.WallCabinetPosition" />
+			<class name="kitchen.bryo.businessRules.WallPanelInvalidShapeRule" />
+			<class name="kitchen.bryo.businessRules.WallPanelMinDimensionABDoubleCutRuleCase1" />
+			<class name="kitchen.bryo.businessRules.WallPanelMinDimensionABDoubleCutRuleCase2" />
+			<class name="kitchen.bryo.businessRules.WallPanelMinDimensionABSingleCutRule" />
+			<class name="kitchen.bryo.businessRules.WallPanelMinDimensionABTripleCutRule" />
+			<class name="kitchen.bryo.businessRules.WashingMachinePosition" />
+			<class name="kitchen.bryo.businessRules.WaterfallRule" />
+			<class name="kitchen.bryo.businessRules.WorktopAroundCooktopRuleCase1" />
+			<class name="kitchen.bryo.businessRules.WorktopInvalidShapeRule" />
+			<class name="kitchen.bryo.businessRules.WorktopOverhangSizeRule" />
+			<class name="kitchen.bryo.businessRules.WorktopPositionOutsideRoomRule" />
+			<class name="kitchen.bryo.businessRules.WorktopWallUnitDistanceRule" />
+		</classes>
+	</test> <!-- Bryo Scenario test in Chrome -->
+
+</suite> <!-- Bryo suite -->
